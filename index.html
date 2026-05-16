@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CFA L1 错题冲刺 | 一级备考错题工作台</title>
+  
+  <!-- Phosphor Icons -->
+  <script src="https://unpkg.com/@phosphor-icons/web@2.1.1"></script>
+  
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+  
+  <!-- Dexie.js -->
+  <script src="https://cdn.jsdelivr.net/npm/dexie@4.0.8/dist/dexie.min.js"></script>
+  
+  <!-- Quill Rich Text Editor -->
+  <link href="https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.snow.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.min.js"></script>
+  
+  <!-- Mammoth (Word parser) -->
+  <script src="https://cdn.jsdelivr.net/npm/mammoth@1.7.2/mammoth.browser.min.js"></script>
+  
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="app">
+    <!-- Sidebar Navigation -->
+    <nav class="sidebar">
+      <div class="sidebar-brand">
+        <div class="brand-icon">L1</div>
+        <div class="brand-text">CFA Level 1</div>
+      </div>
+      
+      <div class="nav-section-label">Study</div>
+      <div class="nav-items">
+        <a href="#upload" class="nav-item active" data-view="upload">
+          <i class="ph ph-plus-circle"></i>
+          <span>录入错题</span>
+        </a>
+        <a href="#library" class="nav-item" data-view="library">
+          <i class="ph ph-books"></i>
+          <span>错题库</span>
+        </a>
+        <a href="#review" class="nav-item" data-view="review">
+          <i class="ph ph-desktop"></i>
+          <span>模拟考试</span>
+        </a>
+        <a href="#dashboard" class="nav-item" data-view="dashboard">
+          <i class="ph ph-chart-bar"></i>
+          <span>学习面板</span>
+        </a>
+        <a href="#settings" class="nav-item" data-view="settings">
+          <i class="ph ph-gear"></i>
+          <span>设置</span>
+        </a>
+      </div>
+      
+      <div class="sidebar-footer">
+        <div class="exam-countdown-mini" id="examCountdownMini">
+          <i class="ph ph-calendar-check"></i>
+          <span>--</span>
+        </div>
+      </div>
+    </nav>
+    
+    <!-- Main Content -->
+    <main class="main-content">
+      <!-- Top Bar -->
+      <header class="top-bar">
+        <h1 class="page-title" id="pageTitle">录入错题</h1>
+        <div class="top-bar-actions">
+          <div class="search-box" id="globalSearchBox">
+            <i class="ph ph-magnifying-glass"></i>
+            <input type="text" placeholder="搜索错题、考点、解析..." id="globalSearchInput">
+          </div>
+        </div>
+      </header>
+      
+      <!-- View: Upload Hub -->
+      <section class="view" id="view-upload">
+        <div class="hero-section">
+          <h2>录入错题</h2>
+          <p>将错题整理入库，为模拟考试和针对性复习积累素材。</p>
+        </div>
+        <div class="action-cards">
+          <div class="action-card" id="btnManualError">
+            <div class="action-card-icon">
+              <i class="ph ph-pencil-simple"></i>
+            </div>
+            <span class="action-card-title">手动录入</span>
+            <span class="action-card-desc">逐题录入，支持选择题与填空题</span>
+          </div>
+          <div class="action-card" id="btnWordImport">
+            <div class="action-card-icon">
+              <i class="ph ph-file-doc"></i>
+            </div>
+            <span class="action-card-title">Word 导入</span>
+            <span class="action-card-desc">从 .docx 文件批量导入错题</span>
+          </div>
+          <div class="action-card" id="btnBatchImport">
+            <div class="action-card-icon">
+              <i class="ph ph-archive"></i>
+            </div>
+            <span class="action-card-title">JSON 恢复</span>
+            <span class="action-card-desc">从备份文件恢复错题数据</span>
+          </div>
+        </div>
+      </section>
+      
+      <!-- View: Error Library -->
+      <section class="view hidden" id="view-library">
+        <div class="library-layout">
+          <aside class="library-sidebar">
+            <div class="filter-section">
+              <h4>按章节筛选</h4>
+            </div>
+            <div class="chapter-tree" id="chapterTree"></div>
+          </aside>
+          
+          <div class="library-content">
+            <div class="content-header">
+              <h2 id="libraryContentTitle">全部错题</h2>
+              <div class="content-actions">
+                <button class="btn btn-sm btn-ghost" id="btnSort">
+                  <i class="ph ph-sort-descending"></i> 时间排序
+                </button>
+              </div>
+            </div>
+            <div class="cards-grid" id="cardsGrid"></div>
+            <div class="empty-state hidden" id="libraryEmptyState">
+              <i class="ph ph-book-bookmark"></i>
+              <p>暂无错题，请先手动录入或导入</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- View: Exam Mode Review -->
+      <section class="view hidden" id="view-review">
+        <!-- Setup Panel -->
+        <div class="review-setup" id="reviewSetup">
+          <h2 style="margin-bottom:8px;">模拟考试 — 错题重做</h2>
+          <p style="color:var(--text-muted);margin-bottom:24px;">模拟 CFA Prometric 机考界面，从错题库中抽取题目进行全真模拟训练。</p>
+          
+          <div class="review-options">
+            <div class="form-group">
+              <label>抽题范围</label>
+              <select id="reviewScope" class="form-control">
+                <option value="all">全部章节</option>
+                <option value="weak">仅薄弱章节（错题最多的前3章）</option>
+                <option value="ethics">道德与职业标准</option>
+                <option value="quant">定量方法</option>
+                <option value="econ">经济学</option>
+                <option value="fsa">财务报表分析</option>
+                <option value="corporate">公司发行人</option>
+                <option value="equity">权益投资</option>
+                <option value="fixed">固定收益</option>
+                <option value="derivatives">衍生品</option>
+                <option value="alt">另类投资</option>
+                <option value="portfolio">投资组合管理</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>抽题数量</label>
+              <select id="reviewCount" class="form-control">
+                <option value="10">10 题</option>
+                <option value="20" selected>20 题</option>
+                <option value="50">50 题</option>
+                <option value="90">90 题（模拟一个Session）</option>
+                <option value="999">全部</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>抽题顺序</label>
+              <select id="reviewOrder" class="form-control">
+                <option value="random">随机乱序（推荐）</option>
+                <option value="time">按时间倒序（最新优先）</option>
+                <option value="chapter">按章节分组</option>
+              </select>
+            </div>
+          </div>
+          
+          <button class="btn btn-primary" id="btnStartReview" style="margin-top:12px;width:100%;padding:14px;font-size:15px;">
+            <i class="ph ph-play-circle"></i> 开始模拟考试
+          </button>
+        </div>
+        
+        <!-- Exam Session -->
+        <div class="exam-session hidden" id="reviewSession">
+          <!-- Exam Top Bar -->
+          <div class="exam-topbar">
+            <div class="exam-brand">
+              <span class="exam-brand-icon">L1</span>
+              <span class="exam-brand-text">CFA Level 1 Practice</span>
+            </div>
+            <div class="exam-timer" id="examTimer">--:--</div>
+            <div style="display:flex;gap:8px;">
+              <button class="exam-flag-btn" id="btnExamFlag" title="标记本题">
+                <i class="ph ph-flag"></i>
+                <span>Flag</span>
+              </button>
+              <button class="exam-flag-btn" id="btnExamQuit" title="退出考试" onclick="quitReviewSession()">
+                <i class="ph ph-sign-out"></i>
+                <span>Exit</span>
+              </button>
+            </div>
+          </div>
+          
+          <!-- Exam Body -->
+          <div class="exam-body">
+            <div class="exam-question-area">
+              <div class="exam-question-header">
+                <span class="exam-question-num" id="examQuestionNum">Question 1 of 20</span>
+                <span class="exam-question-topic" id="examQuestionTopic">Ethics</span>
+              </div>
+              <div class="exam-question-content" id="examQuestionContent"></div>
+            </div>
+            
+            <div class="exam-answer-area" id="examAnswerArea">
+              <!-- Dynamic: options or fill blanks -->
+            </div>
+          </div>
+          
+          <!-- Exam Bottom Bar -->
+          <div class="exam-bottombar">
+            <div class="exam-nav-grid" id="examNavGrid"></div>
+            <div class="exam-nav-buttons">
+              <button class="btn btn-ghost" id="btnExamPrev">上一题</button>
+              <button class="btn btn-ghost" id="btnExamNext">下一题</button>
+              <button class="btn btn-primary" id="btnExamSubmit">提交交卷</button>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Exam Summary -->
+        <div class="review-summary hidden" id="reviewSummary">
+          <div class="summary-content">
+            <i class="ph ph-trophy" style="font-size:48px;color:var(--accent);display:block;margin-bottom:16px;"></i>
+            <h2>模拟考试完成</h2>
+            <div class="summary-stats" id="summaryStats"></div>
+            <div class="summary-detail" id="summaryDetail"></div>
+            <div class="summary-actions">
+              <button class="btn btn-primary" id="btnReviewAgain">再来一轮</button>
+              <button class="btn btn-ghost" id="btnReviewBack">返回冲刺面板</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- View: Sprint Dashboard -->
+      <section class="view hidden" id="view-dashboard">
+        <div class="dashboard-grid">
+          <!-- Countdown Card -->
+          <div class="dashboard-card card-countdown">
+            <div class="card-header">
+              <h3><i class="ph ph-timer"></i> 考试倒计时</h3>
+            </div>
+            <div class="countdown-display" id="countdownDisplay">
+              <div class="countdown-unit">
+                <span class="countdown-num" id="cdDays">--</span>
+                <span class="countdown-label">天</span>
+              </div>
+              <div class="countdown-unit">
+                <span class="countdown-num" id="cdHours">--</span>
+                <span class="countdown-label">时</span>
+              </div>
+              <div class="countdown-unit">
+                <span class="countdown-num" id="cdMinutes">--</span>
+                <span class="countdown-label">分</span>
+              </div>
+            </div>
+            <div class="sprint-phase" id="sprintPhase">
+              <span class="phase-badge" id="phaseBadge">准备中</span>
+              <p class="phase-desc" id="phaseDesc">距离冲刺阶段还有一段时间，继续积累错题。</p>
+            </div>
+          </div>
+          
+          <!-- Stats Overview -->
+          <div class="dashboard-card card-stats">
+            <div class="card-header">
+              <h3><i class="ph ph-chart-pie-slice"></i> 数据概览</h3>
+            </div>
+            <div class="stats-grid">
+              <div class="stat-item">
+                <span class="stat-num" id="statTotalErrors">0</span>
+                <span class="stat-label">错题总数</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-num" id="statChapters">0</span>
+                <span class="stat-label">覆盖章节</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-num" id="statThisWeek">0</span>
+                <span class="stat-label">本周新增</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-num" id="statReviewed">0</span>
+                <span class="stat-label">已复盘</span>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Chapter Error Chart -->
+          <div class="dashboard-card card-chart">
+            <div class="card-header">
+              <h3><i class="ph ph-chart-bar"></i> 各章节错题分布</h3>
+            </div>
+            <div class="chart-container">
+              <canvas id="chapterChart"></canvas>
+            </div>
+          </div>
+          
+          <!-- Weak Points -->
+          <div class="dashboard-card card-list">
+            <div class="card-header">
+              <h3><i class="ph ph-target"></i> 薄弱章节 TOP5</h3>
+            </div>
+            <div class="weak-chapter-list" id="weakChaptersList">
+              <div class="empty-mini">暂无数据</div>
+            </div>
+          </div>
+          
+          <!-- Phase Reminder -->
+          <div class="dashboard-card card-reminder" id="phaseReminderCard">
+            <div class="card-header">
+              <h3><i class="ph ph-strategy"></i> 阶段复习策略</h3>
+            </div>
+            <div class="reminder-content" id="reminderContent"></div>
+          </div>
+          
+          <!-- Quick Review Entry -->
+          <div class="dashboard-card card-daily">
+            <div class="card-header">
+              <h3><i class="ph ph-lightning"></i> 快速开始</h3>
+            </div>
+            <div class="daily-review">
+              <div class="daily-task" id="btnQuickReview">
+                <i class="ph ph-play-circle"></i>
+                <div>
+                  <div class="daily-task-title">模拟考试</div>
+                  <div class="daily-task-desc">随机抽取错题，隐藏解析重新作答</div>
+                </div>
+              </div>
+              <div class="daily-task" id="btnQuickUpload">
+                <i class="ph ph-upload-simple"></i>
+                <div>
+                  <div class="daily-task-title">录入新错题</div>
+                  <div class="daily-task-desc">截图或手动录入今日错题</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- View: Settings -->
+      <section class="view hidden" id="view-settings">
+        <div class="settings-layout">
+          <div class="settings-card">
+            <h3>考试日期设置</h3>
+            <div class="form-group">
+              <label>CFA Level 1 考试日期</label>
+              <input type="date" id="examDate" class="form-control" value="2026-08-20">
+            </div>
+            <div class="form-actions">
+              <button class="btn btn-primary" id="btnSaveDate">保存</button>
+            </div>
+          </div>
+          
+          <div class="settings-card">
+            <h3>数据管理</h3>
+            <div class="form-group">
+              <label>导出所有错题</label>
+              <p class="form-hint">将所有错题、配置导出为 JSON 备份</p>
+              <button class="btn btn-ghost" id="btnExport">
+                <i class="ph ph-download-simple"></i> 导出 JSON
+              </button>
+            </div>
+            <div class="form-group">
+              <label>导入数据</label>
+              <p class="form-hint">从 JSON 文件恢复错题</p>
+              <input type="file" id="importFile" accept=".json" hidden>
+              <button class="btn btn-ghost" onclick="document.getElementById('importFile').click()">
+                <i class="ph ph-upload-simple"></i> 导入 JSON
+              </button>
+            </div>
+            <div class="form-group danger-zone">
+              <label>危险操作</label>
+              <button class="btn btn-danger" id="btnClearAll">
+                <i class="ph ph-trash"></i> 清空所有错题
+              </button>
+            </div>
+          </div>
+          
+          <div class="settings-card">
+            <h3>关于</h3>
+            <p class="about-text">
+              <strong>CFA L1 错题冲刺</strong> — 专注错题管理与模拟考试
+            </p>
+            <p class="about-text">
+              纯前端实现，所有数据保存在浏览器本地。部署于 GitHub Pages。
+            </p>
+            <p class="about-text version">Version 2.0.0</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+  
+  <!-- Modals -->
+  <div class="modal-overlay hidden" id="modalOverlay">
+    <!-- Manual Error Entry Modal -->
+    <div class="modal hidden" id="modalErrorEntry">
+      <div class="modal-header">
+        <h3>手动录入错题</h3>
+        <button class="btn-icon btn-close" data-close-modal><i class="ph ph-x"></i></button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <label>题型</label>
+          <select id="errorType" class="form-control">
+            <option value="choice">选择题</option>
+            <option value="fillblank">填空题</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>题目内容 *</label>
+          <textarea id="errorQuestion" class="form-control" rows="5" placeholder="粘贴题目内容，选择题选项直接写在下方（每行一个）&#10;例如：&#10;A. option 1&#10;B. option 2&#10;C. option 3&#10;&#10;填空题请用 ____ 表示填空位置"></textarea>
+        </div>
+        <div class="form-group hidden" id="groupFillAnswers">
+          <label>填空答案（每行一个，按 ____ 出现顺序）</label>
+          <textarea id="errorFillAnswers" class="form-control" rows="3" placeholder="答案1\n答案2\n答案3"></textarea>
+        </div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+          <div class="form-group">
+            <label>我的答案</label>
+            <input type="text" id="errorMyAnswer" class="form-control" placeholder="选择题例如：A / 填空题用分号分隔">
+          </div>
+          <div class="form-group" id="groupCorrectAnswer">
+            <label>正确答案</label>
+            <input type="text" id="errorCorrectAnswer" class="form-control" placeholder="例如：B">
+          </div>
+        </div>
+        <div class="form-group">
+          <label>官方解析 / 我的备注（支持富文本）</label>
+          <div id="quillEditorNew" style="height:160px;border-radius:var(--radius-sm);"></div>
+        </div>
+        <div class="form-group">
+          <label>所属章节 *</label>
+          <select id="errorChapter" class="form-control"></select>
+        </div>
+        <div class="form-group">
+          <label>考点标签（用逗号分隔）</label>
+          <input type="text" id="errorTags" class="form-control" placeholder="例如：NPV, 折现率, 资本预算">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-ghost" data-close-modal>取消</button>
+        <button class="btn btn-primary" id="btnSaveError">保存错题</button>
+      </div>
+    </div>
+    
+    <!-- Error Edit Modal -->
+    <div class="modal modal-lg hidden" id="modalErrorEdit">
+      <div class="modal-header">
+        <h3>编辑错题</h3>
+        <button class="btn-icon btn-close" data-close-modal><i class="ph ph-x"></i></button>
+      </div>
+      <div class="modal-body">
+        <input type="hidden" id="editErrorId">
+        <div class="form-group">
+          <label>题型</label>
+          <select id="editErrorType" class="form-control">
+            <option value="choice">选择题</option>
+            <option value="fillblank">填空题</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>题目内容</label>
+          <textarea id="editErrorQuestion" class="form-control" rows="5"></textarea>
+        </div>
+        <div class="form-group hidden" id="editGroupFillAnswers">
+          <label>填空答案（每行一个，按 ____ 出现顺序）</label>
+          <textarea id="editErrorFillAnswers" class="form-control" rows="3"></textarea>
+        </div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+          <div class="form-group">
+            <label>我的答案</label>
+            <input type="text" id="editErrorMyAnswer" class="form-control">
+          </div>
+          <div class="form-group" id="editGroupCorrectAnswer">
+            <label>正确答案</label>
+            <input type="text" id="editErrorCorrectAnswer" class="form-control">
+          </div>
+        </div>
+        <div class="form-group">
+          <label>官方解析 / 我的备注（支持富文本）</label>
+          <div id="quillEditorEdit" style="height:180px;border-radius:var(--radius-sm);"></div>
+        </div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+          <div class="form-group">
+            <label>所属章节</label>
+            <select id="editErrorChapter" class="form-control"></select>
+          </div>
+          <div class="form-group">
+            <label>考点标签</label>
+            <input type="text" id="editErrorTags" class="form-control" placeholder="用逗号分隔">
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-danger btn-sm" id="btnDeleteError">
+          <i class="ph ph-trash"></i> 删除
+        </button>
+        <div style="display:flex;gap:8px;">
+          <button class="btn btn-ghost" data-close-modal>取消</button>
+          <button class="btn btn-primary" id="btnUpdateError">保存修改</button>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Error Detail Modal -->
+    <div class="modal modal-lg hidden" id="modalErrorDetail">
+      <div class="modal-header">
+        <h3>错题详情</h3>
+        <button class="btn-icon btn-close" data-close-modal><i class="ph ph-x"></i></button>
+      </div>
+      <div class="modal-body" id="errorDetailBody"></div>
+      <div class="modal-footer">
+        <button class="btn btn-danger btn-sm" id="btnDeleteErrorFromDetail">
+          <i class="ph ph-trash"></i> 删除
+        </button>
+        <div style="display:flex;gap:8px;">
+          <button class="btn btn-ghost btn-sm" id="btnReviewErrorDetail">
+            <i class="ph ph-check-circle"></i> 标记已复盘
+          </button>
+          <button class="btn btn-ghost btn-sm" id="btnEditErrorDetail">
+            <i class="ph ph-pencil-simple"></i> 编辑
+          </button>
+          <button class="btn btn-ghost" data-close-modal>关闭</button>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Word Import Modal -->
+    <div class="modal modal-lg hidden" id="modalWordImport">
+      <div class="modal-header">
+        <h3>从 Word 批量导入</h3>
+        <button class="btn-icon btn-close" data-close-modal><i class="ph ph-x"></i></button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <label>选择 Word 文件 (.docx)</label>
+          <input type="file" id="wordFileInput" accept=".docx" class="form-control">
+          <span class="form-hint">支持 .docx 格式，系统会自动提取文本</span>
+        </div>
+        <div class="form-group">
+          <label>提取结果（可编辑后确认导入）</label>
+          <textarea id="wordExtractedText" class="form-control" rows="12" placeholder="先选择文件，提取的文本将显示在这里..."></textarea>
+        </div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+          <div class="form-group">
+            <label>默认章节</label>
+            <select id="wordImportChapter" class="form-control"></select>
+          </div>
+          <div class="form-group">
+            <label>分割标记（可选）</label>
+            <input type="text" id="wordSplitMarker" class="form-control" value="【题目" placeholder="例如：【题目">
+            <span class="form-hint">系统会按此标记自动拆分成多道错题</span>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-ghost" data-close-modal>取消</button>
+        <button class="btn btn-primary" id="btnImportWordText">一键导入为错题</button>
+      </div>
+    </div>
+    
+    <!-- Search Results Modal -->
+    <div class="modal modal-lg hidden" id="modalSearchResults">
+      <div class="modal-header">
+        <h3>搜索结果</h3>
+        <button class="btn-icon btn-close" data-close-modal><i class="ph ph-x"></i></button>
+      </div>
+      <div class="modal-body">
+        <div class="search-results" id="searchResults"></div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Toast Container -->
+  <div class="toast-container" id="toastContainer"></div>
+  
+  <!-- Scripts -->
+  <script src="js/db.js"></script>
+  <script src="js/dashboard.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/app-core.js"></script>
+</body>
+</html>

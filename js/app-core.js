@@ -6,8 +6,9 @@ function parseQuestionAndOptions(text) {
   const options = [];
   for (const line of lines) {
     const trimmed = line.trim();
-    if (/^[A-Da-d][\.、\)\:]\s*/.test(trimmed)) {
-      options.push(trimmed);
+    const m = trimmed.match(/^([A-Da-d])[\.、\)\:]\s*(.*)$/);
+    if (m) {
+      options.push(m[2]);
     } else {
       questionLines.push(line);
     }
@@ -20,7 +21,13 @@ function parseQuestionAndOptions(text) {
 
 function mergeQuestionAndOptions(question, options) {
   if (!options || options.length === 0) return question || '';
-  return (question || '') + '\n\n' + options.join('\n');
+  const prefixed = options.map((opt, idx) => {
+    const letter = String.fromCharCode(65 + idx);
+    const trimmed = (opt || '').trim();
+    if (/^[A-Da-d][\.、\)\:]\s*/.test(trimmed)) return trimmed;
+    return letter + '. ' + trimmed;
+  });
+  return (question || '') + '\n\n' + prefixed.join('\n');
 }
 
 function saveManualError() {
@@ -341,10 +348,11 @@ function renderChoiceOptions(container, error, session) {
         if (letter === correct) extraClass = 'correct';
         else if (isSelected && letter !== correct) extraClass = 'wrong';
       }
+      const cleanOpt = (opt || '').trim().replace(/^[A-Da-d][\.、\)\:]\s*/, '');
       html += '<div class="exam-option ' + (isSelected ? 'selected' : '') + ' ' + (isStruck ? 'striked' : '') + ' ' + extraClass + '" data-idx="' + i + '" onclick="examSelectOption(' + i + ')">' +
         '<input type="radio" name="examOpt" ' + (isSelected ? 'checked' : '') + ' onclick="event.stopPropagation();examSelectOption(' + i + ')" ' + (session.submitted ? 'disabled' : '') + '>' +
         '<span class="exam-option-label">' + letter + '.</span>' +
-        '<span class="exam-option-text">' + escapeHtml(opt) + '</span>' +
+        '<span class="exam-option-text">' + escapeHtml(cleanOpt) + '</span>' +
         (session.submitted ? '' : '<button class="exam-option-strike" onclick="event.stopPropagation();examToggleStrike(' + i + ')" title="划掉此选项">划掉</button>') +
         '</div>';
     });
@@ -812,8 +820,9 @@ async function openErrorDetailModal(id) {
     html += '<div class="detail-section"><h4>选项</h4><div class="detail-options">';
     error.options.forEach((opt, idx) => {
       const letter = String.fromCharCode(65 + idx);
-      const isCorrect = error.correctAnswer && opt.startsWith(error.correctAnswer);
-      html += '<div class="detail-option ' + (isCorrect ? 'correct' : '') + '">' + letter + '. ' + escapeHtml(opt) + '</div>';
+      const cleanOpt = (opt || '').trim().replace(/^[A-Da-d][\.、\)\:]\s*/, '');
+      const isCorrect = error.correctAnswer && (cleanOpt.toUpperCase().startsWith(error.correctAnswer) || letter === error.correctAnswer);
+      html += '<div class="detail-option ' + (isCorrect ? 'correct' : '') + '">' + letter + '. ' + escapeHtml(cleanOpt) + '</div>';
     });
     html += '</div></div>';
   }

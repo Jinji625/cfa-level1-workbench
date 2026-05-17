@@ -8,9 +8,9 @@
       "question": "4. A portfolio manager invests EUR5,000 annually in a security for four years at the following prices:\nThe average price is best represented as the:",
       "questionType": "choice",
       "options": [
-        "A. harmonic mean of EUR76.48.",
-        "B. geometric mean of EUR77.26.",
-        "C. arithmetic average of EUR78.00."
+        "harmonic mean of EUR76.48.",
+        "geometric mean of EUR77.26.",
+        "arithmetic average of EUR78.00."
       ],
       "myAnswer": "",
       "correctAnswer": "A",
@@ -25,9 +25,9 @@
       "question": "6. A fund receives investments at the beginning of each year and generates returns for three years as follows:\nWhich return measure over the three-year period is negative?",
       "questionType": "choice",
       "options": [
-        "A. Geometric mean return",
-        "B. Time-weighted rate of return",
-        "C. Money-weighted rate of return"
+        "Geometric mean return",
+        "Time-weighted rate of return",
+        "Money-weighted rate of return"
       ],
       "myAnswer": "",
       "correctAnswer": "C",
@@ -146,9 +146,9 @@
       "question": "12. A stock currently trades at USD25. In one year, it will either increase in value to USD35 or decrease to USD15. An investor sells a call option on the stock, granting the buyer the right, but not the obligation, to buy the stock at USD25 in one year. At the same time, the investor buys 0.5 units of the stock. Which of the following statements about the value of the investor’s portfolio at the end of one year is correct?",
       "questionType": "choice",
       "options": [
-        "A. The portfolio has a value of USD7.50 in both scenarios.",
-        "B. The portfolio has a value of USD25 in both scenarios.",
-        "C. The portfolio has a value of USD17.50 if the stock goes up and USD7.50 if the stock goes down."
+        "The portfolio has a value of USD7.50 in both scenarios.",
+        "The portfolio has a value of USD25 in both scenarios.",
+        "The portfolio has a value of USD17.50 if the stock goes up and USD7.50 if the stock goes down."
       ],
       "myAnswer": "",
       "correctAnswer": "A",
@@ -189,9 +189,9 @@
       "question": "15. For a given expected return and standard deviation, investors are most likely to be attracted to return distributions that are:",
       "questionType": "choice",
       "options": [
-        "A. negatively skewed.",
-        "B. positively skewed.",
-        "C. normal."
+        "negatively skewed.",
+        "positively skewed.",
+        "normal."
       ],
       "myAnswer": "",
       "correctAnswer": "B",
@@ -206,9 +206,9 @@
       "question": "6. When working backward from the nodes on a binomial tree diagram, the analyst is most likely attempting to calculate:",
       "questionType": "choice",
       "options": [
-        "A. the number of potential outcomes.",
-        "B. the probability of a given scenario.",
-        "C. an expected value as of today."
+        "the number of potential outcomes.",
+        "the probability of a given scenario.",
+        "an expected value as of today."
       ],
       "myAnswer": "",
       "correctAnswer": "C",
@@ -262,8 +262,8 @@
       "question": "14. Three firms operate under perfect competition, producing 900 units of the same product but using different production technologies. Each company’s cost structure is indicated in the table:\nWhich of the following statements is most accurate? If the unit selling price is:A. $6.00, all firms should exit the market in the long run.",
       "questionType": "choice",
       "options": [
-        "B. $3.00, Firm X should continue to operate in the short run, but Firms Y and Z should shut down production.",
-        "C. $4.50, all firms should continue to operate in the short run, but exit the market in the long run if these conditions are expected to persist."
+        "$3.00, Firm X should continue to operate in the short run, but Firms Y and Z should shut down production.",
+        "$4.50, all firms should continue to operate in the short run, but exit the market in the long run if these conditions are expected to persist."
       ],
       "myAnswer": "",
       "correctAnswer": "B",
@@ -330,9 +330,9 @@
       "question": "1. Which of the following rules is most likely to be used to determine whether the economy is in a recession?",
       "questionType": "choice",
       "options": [
-        "A. The central bank has run out of foreign reserves.",
-        "B. Real GDP has two consecutive quarters of negative growth.",
-        "C. Economic activity experiences a significant decline in two business sectors."
+        "The central bank has run out of foreign reserves.",
+        "Real GDP has two consecutive quarters of negative growth.",
+        "Economic activity experiences a significant decline in two business sectors."
       ],
       "myAnswer": "",
       "correctAnswer": "B",
@@ -347,9 +347,9 @@
       "question": "2. Suppose you are interested in forecasting earnings growth for a company active in a country where no official business cycle dating committee (such as the NBER) exists. The variables you are most likely to consider to identify peaks and troughs of a country’s business cycle are:",
       "questionType": "choice",
       "options": [
-        "A. inflation, interest rates, and unemployment.",
-        "B. stock market values and money supply.",
-        "C. unemployment, GDP growth, industrial production, and inflation."
+        "inflation, interest rates, and unemployment.",
+        "stock market values and money supply.",
+        "unemployment, GDP growth, industrial production, and inflation."
       ],
       "myAnswer": "",
       "correctAnswer": "C",
@@ -364,9 +364,9 @@
       "question": "1. Although a small part of the overall economy, changes in inventories can influence economic growth measures significantly because they:",
       "questionType": "choice",
       "options": [
-        "A. reflect general business sentiment.",
-        "B. tend to move forcefully up or down.",
-        "C. determine the availability of goods for sale."
+        "reflect general business sentiment.",
+        "tend to move forcefully up or down.",
+        "determine the availability of goods for sale."
       ],
       "myAnswer": "",
       "correctAnswer": "B",
@@ -381,9 +381,9 @@
       "question": "2. Inventories tend to rise when:",
       "questionType": "choice",
       "options": [
-        "A. inventory–sales ratios are low.",
-        "B. inventory–sales ratios are high.",
-        "C. economic activity begins to rebound."
+        "inventory–sales ratios are low.",
+        "inventory–sales ratios are high.",
+        "economic activity begins to rebound."
       ],
       "myAnswer": "",
       "correctAnswer": "A",
@@ -398,9 +398,9 @@
       "question": "2. A diffusion index:",
       "questionType": "choice",
       "options": [
-        "A. measures growth.",
-        "B. reflects the consensus change in economic indicators.",
-        "C. is roughly analogous to the indexes used to measure industrial production."
+        "measures growth.",
+        "reflects the consensus change in economic indicators.",
+        "is roughly analogous to the indexes used to measure industrial production."
       ],
       "myAnswer": "",
       "correctAnswer": "B",
@@ -415,9 +415,9 @@
       "question": "4. The following table shows the trends in various economic indicators in the two most recent quarters:\nEconomic Indicator\nTrend\nInterest rate spread between long-term government bonds and overnight borrowing rate\nNarrowing\nNew orders for capital goods\nDeclining\nResidential building permits\nDeclining\nEmployees on non-agricultural payrolls\nTurned from rising to falling\nManufacturing and trade sales\nStable\nAverage duration of unemployment\nSmall decline\nChange in unit labor costs\nRising\nGiven the information, this economy is most likely experiencing a:",
       "questionType": "choice",
       "options": [
-        "A. continuing recession.",
-        "B. peak in the business cycle.",
-        "C. strong recovery out of a trough."
+        "continuing recession.",
+        "peak in the business cycle.",
+        "strong recovery out of a trough."
       ],
       "myAnswer": "",
       "correctAnswer": "B",
@@ -432,9 +432,9 @@
       "question": "1. Based on typical labor utilization patterns across the business cycle, productivity (output per hours worked) is most likely to be highest:",
       "questionType": "choice",
       "options": [
-        "A. at the peak of a boom.",
-        "B. into a maturing expansion.",
-        "C. at the bottom of a recession."
+        "at the peak of a boom.",
+        "into a maturing expansion.",
+        "at the bottom of a recession."
       ],
       "myAnswer": "",
       "correctAnswer": "C",
@@ -449,9 +449,9 @@
       "question": "2. As the expansion phase of the business cycle advances from early stage to late stage, businesses most likely experience a decrease in:",
       "questionType": "choice",
       "options": [
-        "A. labor costs.",
-        "B. capital investment.",
-        "C. availability of qualified workers."
+        "labor costs.",
+        "capital investment.",
+        "availability of qualified workers."
       ],
       "myAnswer": "",
       "correctAnswer": "C",
@@ -466,9 +466,9 @@
       "question": "3. An analyst writes in an economic report that the current phase of the business cycle is characterized by accelerating inflationary pressures and borrowing by companies. The analyst is most likely referring to the:",
       "questionType": "choice",
       "options": [
-        "A. peak of the business cycle.",
-        "B. contraction phase of the business cycle.",
-        "C. early expansion phase of the business cycle."
+        "peak of the business cycle.",
+        "contraction phase of the business cycle.",
+        "early expansion phase of the business cycle."
       ],
       "myAnswer": "",
       "correctAnswer": "A",
@@ -496,9 +496,9 @@
       "question": "12. Which of the following is most likely to increase after an increase in aggregate real personal income?",
       "questionType": "choice",
       "options": [
-        "A. Equity prices",
-        "B. Building permits for new private housing units",
-        "C. The ratio of consumer installment debt to income"
+        "Equity prices",
+        "Building permits for new private housing units",
+        "The ratio of consumer installment debt to income"
       ],
       "myAnswer": "",
       "correctAnswer": "C",
@@ -513,9 +513,9 @@
       "question": "13. Which of the following indicators is most appropriate in predicting a turning point in the economy?",
       "questionType": "choice",
       "options": [
-        "A. The Industrial Production Index",
-        "B. The average bank prime lending rate",
-        "C. Average weekly hours, manufacturing"
+        "The Industrial Production Index",
+        "The average bank prime lending rate",
+        "Average weekly hours, manufacturing"
       ],
       "myAnswer": "",
       "correctAnswer": "C",
@@ -530,9 +530,9 @@
       "question": "1. The least likely goal of a government’s fiscal policy is to:",
       "questionType": "choice",
       "options": [
-        "A. redistribute income and wealth.",
-        "B. influence aggregate national output.",
-        "C. ensure the stability of the purchasing power of its currency."
+        "redistribute income and wealth.",
+        "influence aggregate national output.",
+        "ensure the stability of the purchasing power of its currency."
       ],
       "myAnswer": "",
       "correctAnswer": "C",
@@ -547,9 +547,9 @@
       "question": "4. Which of the following statements is most accurate?",
       "questionType": "choice",
       "options": [
-        "A. An increase in the budget deficit is usually expansionary.",
-        "B. An increase in government spending is always expansionary.",
-        "C. The structural deficit is always larger than the deficit below full employment."
+        "An increase in the budget deficit is usually expansionary.",
+        "An increase in government spending is always expansionary.",
+        "The structural deficit is always larger than the deficit below full employment."
       ],
       "myAnswer": "",
       "correctAnswer": "A",
@@ -564,9 +564,9 @@
       "question": "2. A contractionary fiscal policy will always involve which of the following?",
       "questionType": "choice",
       "options": [
-        "A. Balanced budget",
-        "B. Reduction in government spending",
-        "C. Fall in the budget deficit or rise in the surplus"
+        "Balanced budget",
+        "Reduction in government spending",
+        "Fall in the budget deficit or rise in the surplus"
       ],
       "myAnswer": "",
       "correctAnswer": "C",
@@ -594,9 +594,9 @@
       "question": "2. Which of the following does a central bank seek to influence\ndirectly via the setting of its official interest rate?",
       "questionType": "choice",
       "options": [
-        "A. Import prices",
-        "B. Domestic inflation",
-        "C. Inflation expectations"
+        "Import prices",
+        "Domestic inflation",
+        "Inflation expectations"
       ],
       "myAnswer": "",
       "correctAnswer": "C",
@@ -611,9 +611,9 @@
       "question": "4. A country that maintains a target exchange rate is most likely to have which outcome when its inflation rate rises above the level of the inflation rate in the target country?",
       "questionType": "choice",
       "options": [
-        "A. Increase in short-term interest rates",
-        "B. Increase in the domestic money supply",
-        "C. Increase in its foreign currency reserves"
+        "Increase in short-term interest rates",
+        "Increase in the domestic money supply",
+        "Increase in its foreign currency reserves"
       ],
       "myAnswer": "",
       "correctAnswer": "A",
@@ -641,9 +641,9 @@
       "question": "4. Given an independent central bank, monetary policy actions are more likely than fiscal policy actions to be:",
       "questionType": "choice",
       "options": [
-        "A. implementable quickly.",
-        "B. effective when a specific group is targeted.",
-        "C. effective when combating a deflationary economy."
+        "implementable quickly.",
+        "effective when a specific group is targeted.",
+        "effective when combating a deflationary economy."
       ],
       "myAnswer": "",
       "correctAnswer": "A",
@@ -658,9 +658,9 @@
       "question": "13. As a monetary policy tool, quantitative easing (QE) will most likely help revive an ailing economy in which of the following environments?",
       "questionType": "choice",
       "options": [
-        "A. Deflationary trap",
-        "B. Declining bank reserves and economic activity",
-        "C. Liquidity trap"
+        "Deflationary trap",
+        "Declining bank reserves and economic activity",
+        "Liquidity trap"
       ],
       "myAnswer": "",
       "correctAnswer": "C",
@@ -675,9 +675,9 @@
       "question": "17. Given stable inflation, a tight fiscal policy accompanied by easy monetary policy will most likely:",
       "questionType": "choice",
       "options": [
-        "A. decrease the private sector share of GDP.",
-        "B. have no impact on the private sector share of GDP.",
-        "C. increase the private sector share of GDP."
+        "decrease the private sector share of GDP.",
+        "have no impact on the private sector share of GDP.",
+        "increase the private sector share of GDP."
       ],
       "myAnswer": "",
       "correctAnswer": "C",
@@ -692,9 +692,9 @@
       "question": "7. Which of the following international trade bodies was the only multilateral body governing international trade from 1948 to 1995?",
       "questionType": "choice",
       "options": [
-        "A. World Trade Organization (WTO)",
-        "B. International Trade Organization (ITO)",
-        "C. General Agreement on Tariffs and Trade (GATT)"
+        "World Trade Organization (WTO)",
+        "International Trade Organization (ITO)",
+        "General Agreement on Tariffs and Trade (GATT)"
       ],
       "myAnswer": "",
       "correctAnswer": "C",
@@ -722,9 +722,9 @@
       "question": "9. An applicable conclusion drawn from the Geopolitical Risk Index (GPR) is that:",
       "questionType": "choice",
       "options": [
-        "A. high geopolitical risk results in tangible macroeconomic effects.",
-        "B. recurring geopolitical risk events lead to reduced corporate investment.",
-        "C. the adverse impact of actual events is greater over time than that of the threat of such events."
+        "high geopolitical risk results in tangible macroeconomic effects.",
+        "recurring geopolitical risk events lead to reduced corporate investment.",
+        "the adverse impact of actual events is greater over time than that of the threat of such events."
       ],
       "myAnswer": "",
       "correctAnswer": "B",
@@ -739,9 +739,9 @@
       "question": "10. The basic geopolitical risk type most likely in comparison to have the smallest degree of uncertainty is:",
       "questionType": "choice",
       "options": [
-        "A. exogenous risk.",
-        "B. event risk.",
-        "C. thematic risk."
+        "exogenous risk.",
+        "event risk.",
+        "thematic risk."
       ],
       "myAnswer": "",
       "correctAnswer": "B",
@@ -756,9 +756,9 @@
       "question": "7. If Brazil and South Africa have free trade with each other, a common trade policy against all other countries, but no free movement of factors of production between them, then Brazil and South Africa are part of a(n):",
       "questionType": "choice",
       "options": [
-        "A. customs union.",
-        "B. common market.",
-        "C. FTA."
+        "customs union.",
+        "common market.",
+        "FTA."
       ],
       "myAnswer": "",
       "correctAnswer": "A",
@@ -773,9 +773,9 @@
       "question": "6. Based on the adviser’s scenario, the change in the relative purchasing power of the client’s Australian-dollar-denominated income is closest to:",
       "questionType": "choice",
       "options": [
-        "A. –8 percent.",
-        "B. +8 percent.",
-        "C. +12 percent."
+        "–8 percent.",
+        "+8 percent.",
+        "+12 percent."
       ],
       "myAnswer": "",
       "correctAnswer": "1.A；2.B；5.B；6.A",
@@ -790,9 +790,9 @@
       "question": "2. If the bid/offer quote from the dealer was 18.8580–18.8600 MXN/USD, then the bid/offer quote in USD/MXN terms would be closest to:",
       "questionType": "choice",
       "options": [
-        "A. 0.05302–0.05303.",
-        "B. 0.05303–0.05302.",
-        "C. 0.053025–0.053025."
+        "0.05302–0.05303.",
+        "0.05303–0.05302.",
+        "0.053025–0.053025."
       ],
       "myAnswer": "",
       "correctAnswer": "1.B；2.",
@@ -807,9 +807,9 @@
       "question": "1. A country with a trade deficit will most likely:",
       "questionType": "choice",
       "options": [
-        "A. have an offsetting capital account surplus.",
-        "B. save enough to fund its investment spending.",
-        "C. buy assets from foreigners to fund the imbalance."
+        "have an offsetting capital account surplus.",
+        "save enough to fund its investment spending.",
+        "buy assets from foreigners to fund the imbalance."
       ],
       "myAnswer": "",
       "correctAnswer": "A",
@@ -824,9 +824,9 @@
       "question": "1. What will be the effect on a direct exchange rate quote if the domestic currency appreciates?",
       "questionType": "choice",
       "options": [
-        "A. Increase",
-        "B. Decrease",
-        "C. No change"
+        "Increase",
+        "Decrease",
+        "No change"
       ],
       "myAnswer": "",
       "correctAnswer": "B",
@@ -841,9 +841,9 @@
       "question": "7. In the classification of currency regimes, a currency board system (CBS) most likely differs from a fixed-rate parity system in that:",
       "questionType": "choice",
       "options": [
-        "A. a CBS has a discretionary target level of foreign exchange reserves.",
-        "B. a CBS can peg to a basket of currencies but a fixed-rate system cannot.",
-        "C. the monetary authority within a CBS does not act as a traditional lender of last resort."
+        "a CBS has a discretionary target level of foreign exchange reserves.",
+        "a CBS can peg to a basket of currencies but a fixed-rate system cannot.",
+        "the monetary authority within a CBS does not act as a traditional lender of last resort."
       ],
       "myAnswer": "",
       "correctAnswer": "C",
@@ -858,9 +858,9 @@
       "question": "1. According to the exchange rate information, the treasurer could hedge the FX risk by:",
       "questionType": "choice",
       "options": [
-        "A. buying euro (selling British pounds) at a forward rate of 0.87380.",
-        "B. buying euro (selling British pounds) at a forward rate of 0.87506.",
-        "C. selling euro (buying British pounds) at a forward rate of 0.87506."
+        "buying euro (selling British pounds) at a forward rate of 0.87380.",
+        "buying euro (selling British pounds) at a forward rate of 0.87506.",
+        "selling euro (buying British pounds) at a forward rate of 0.87506."
       ],
       "myAnswer": "",
       "correctAnswer": "B",
@@ -875,9 +875,9 @@
       "question": "6. A forward premium indicates:",
       "questionType": "choice",
       "options": [
-        "A. an expected increase in demand for the base currency.",
-        "B. the interest rate is higher in the base currency than in the price currency.",
-        "C. the interest rate is higher in the price currency than in the base currency."
+        "an expected increase in demand for the base currency.",
+        "the interest rate is higher in the base currency than in the price currency.",
+        "the interest rate is higher in the price currency than in the base currency."
       ],
       "myAnswer": "",
       "correctAnswer": "C",
@@ -918,9 +918,9 @@
       "question": "5. Which of the following board structures would most limit shareholders’ ability to effect a major change in the management of a firm?",
       "questionType": "choice",
       "options": [
-        "A. Majority inside, staggered",
-        "B. Majority independent, staggered",
-        "C. Majority independent, non-staggered"
+        "Majority inside, staggered",
+        "Majority independent, staggered",
+        "Majority independent, non-staggered"
       ],
       "myAnswer": "",
       "correctAnswer": "A",
@@ -935,9 +935,9 @@
       "question": "2. An investment analyst would likely be most concerned about an executive compensation plan that:",
       "questionType": "choice",
       "options": [
-        "A. varies each year.",
-        "B. is consistent with the compensation plans of a company’s competitors.",
-        "C. is cash-based only, without an equity component"
+        "varies each year.",
+        "is consistent with the compensation plans of a company’s competitors.",
+        "is cash-based only, without an equity component"
       ],
       "myAnswer": "",
       "correctAnswer": "B",
@@ -952,9 +952,9 @@
       "question": "3. Benefits of effective corporate governance include all of the following except:",
       "questionType": "choice",
       "options": [
-        "A. avoidance of fraud.",
-        "B. higher investor confidence.",
-        "C. reduced cost of equity"
+        "avoidance of fraud.",
+        "higher investor confidence.",
+        "reduced cost of equity"
       ],
       "myAnswer": "",
       "correctAnswer": "A",
@@ -969,9 +969,9 @@
       "question": "6. The potential for conflict between debtholders and shareholders is:",
       "questionType": "choice",
       "options": [
-        "A. lower for long-term debt than for short-term debt.",
-        "B. the same for long-term debt and short-term debt.",
-        "C. higher for long-term debt than for short-term debt."
+        "lower for long-term debt than for short-term debt.",
+        "the same for long-term debt and short-term debt.",
+        "higher for long-term debt than for short-term debt."
       ],
       "myAnswer": "",
       "correctAnswer": "A",
@@ -986,9 +986,9 @@
       "question": "10. Which of the following is considered a best practice that would strengthen the measures discussed to prevent a recurrence of the misconduct?",
       "questionType": "choice",
       "options": [
-        "A. A shareholder rights plan",
-        "B. A stock-based compensation plan",
-        "C. An audit committee composed solely of independent board members"
+        "A shareholder rights plan",
+        "A stock-based compensation plan",
+        "An audit committee composed solely of independent board members"
       ],
       "myAnswer": "",
       "correctAnswer": "C",
@@ -1003,9 +1003,9 @@
       "question": "2. Which of the following actions will most likely increase an issuer’s liquidity?",
       "questionType": "choice",
       "options": [
-        "A. Forgoing a supplier’s discount for prompt payments",
-        "B. Relaxing terms for customers by lengthening the payment period",
-        "C. Purchasing short-term marketable securities with cash on hand"
+        "Forgoing a supplier’s discount for prompt payments",
+        "Relaxing terms for customers by lengthening the payment period",
+        "Purchasing short-term marketable securities with cash on hand"
       ],
       "myAnswer": "",
       "correctAnswer": "A",
@@ -1020,9 +1020,9 @@
       "question": "3. The Plough Corporation reports the following items on its two most recent balance sheets (in millions)\nBased on the cash ratio, the company has:",
       "questionType": "choice",
       "options": [
-        "A. become less liquid.",
-        "B. become more liquid.",
-        "C. not changed regarding liquidity."
+        "become less liquid.",
+        "become more liquid.",
+        "not changed regarding liquidity."
       ],
       "myAnswer": "",
       "correctAnswer": "B",
@@ -1037,9 +1037,9 @@
       "question": "5. Which of the following actions provides a secondary source of liquidity?",
       "questionType": "choice",
       "options": [
-        "A. Issuance of equity securities",
-        "B. Collecting accounts receivable",
-        "C. Taking advantage of a supplier’s financing and paying on the net day, day 40"
+        "Issuance of equity securities",
+        "Collecting accounts receivable",
+        "Taking advantage of a supplier’s financing and paying on the net day, day 40"
       ],
       "myAnswer": "",
       "correctAnswer": "A",
@@ -1067,8 +1067,8 @@
       "question": "6. Which of the following is a pull on a company's liquidity?",
       "questionType": "choice",
       "options": [
-        "A. Obsolete inventory",
-        "B. Reduced credit limitsC. Uncollected receivables"
+        "Obsolete inventory",
+        "Reduced credit limitsC. Uncollected receivables"
       ],
       "myAnswer": "",
       "correctAnswer": "B",
@@ -1096,9 +1096,9 @@
       "question": "3. A project has the following annual cash flows:\nYear 0\nYear 1\nYear 2\nYear 3\nYear 4\n‒$4,662,005\n$22,610,723\n‒$41,072,261\n$33,116,550\n‒$10,000,000\nWhich of the following discount rates most likely produces the highest net present value (NPV)?",
       "questionType": "choice",
       "options": [
-        "A. 8%",
-        "B. 10%",
-        "C. 15%"
+        "8%",
+        "10%",
+        "15%"
       ],
       "myAnswer": "",
       "correctAnswer": "C",
@@ -1126,9 +1126,9 @@
       "question": "7. When choosing between mutually exclusive projects, an analyst should:",
       "questionType": "choice",
       "options": [
-        "A. accept the project with the highest IRR.",
-        "B. use the opportunity cost of funds as the discount rate.",
-        "C. accept the projects for which the IRR is greater than the opportunity cost of funds."
+        "accept the project with the highest IRR.",
+        "use the opportunity cost of funds as the discount rate.",
+        "accept the projects for which the IRR is greater than the opportunity cost of funds."
       ],
       "myAnswer": "",
       "correctAnswer": "B",
@@ -1143,9 +1143,9 @@
       "question": "13. Subsequent to making a capital investment, a company reacts to poor financial results from the project by abandoning it. This action alone best exemplifies the exercise of a:",
       "questionType": "choice",
       "options": [
-        "A. sizing option.",
-        "B. timing option.",
-        "C. flexibility option."
+        "sizing option.",
+        "timing option.",
+        "flexibility option."
       ],
       "myAnswer": "",
       "correctAnswer": "A",
@@ -1160,9 +1160,9 @@
       "question": "14. When preparing the cash-flow forecasts for both projects, Soroka should include:",
       "questionType": "choice",
       "options": [
-        "A. only the cost of the market research.",
-        "B. only the loss of revenue from existing products.",
-        "C. both the market research cost and the loss of revenue from existing products."
+        "only the cost of the market research.",
+        "only the loss of revenue from existing products.",
+        "both the market research cost and the loss of revenue from existing products."
       ],
       "myAnswer": "",
       "correctAnswer": "B",
@@ -1177,9 +1177,9 @@
       "question": "16. The most likely impact from the cash-flow timing considered by Soroka is that:",
       "questionType": "choice",
       "options": [
-        "A. both IRR and NPV would decrease.",
-        "B. both IRR and NPV stay unchanged.",
-        "C. only IRR would decrease but NPV would increase."
+        "both IRR and NPV would decrease.",
+        "both IRR and NPV stay unchanged.",
+        "only IRR would decrease but NPV would increase."
       ],
       "myAnswer": "",
       "correctAnswer": "A",
@@ -1194,9 +1194,9 @@
       "question": "18. Considering ABC management’s ROIC-based investment criterion and the IRR and NPV of both projects, Soroka should recommend to:",
       "questionType": "choice",
       "options": [
-        "A. reject both projects A and B.",
-        "B. invest only in Project B because it has a higher NPV.",
-        "C. invest only in Project A because has positive cash flow during all four years."
+        "reject both projects A and B.",
+        "invest only in Project B because it has a higher NPV.",
+        "invest only in Project A because has positive cash flow during all four years."
       ],
       "myAnswer": "",
       "correctAnswer": "A",
@@ -1211,9 +1211,9 @@
       "question": "2. When calculating IRR, the interim cash flows are assumed to be reinvested and earn a rate of return rate that is:",
       "questionType": "choice",
       "options": [
-        "A. lower than IRR.",
-        "B. the same as IRR.",
-        "C. higher than IRR."
+        "lower than IRR.",
+        "the same as IRR.",
+        "higher than IRR."
       ],
       "myAnswer": "",
       "correctAnswer": "B",
@@ -1228,9 +1228,9 @@
       "question": "2. Which step in the capital allocation process most likely involves the calculation of NPV and IRR?",
       "questionType": "choice",
       "options": [
-        "A. Idea generation",
-        "B. Investment analysis",
-        "C. Planning and prioritization"
+        "Idea generation",
+        "Investment analysis",
+        "Planning and prioritization"
       ],
       "myAnswer": "",
       "correctAnswer": "B",
@@ -1245,9 +1245,9 @@
       "question": "1. Which of the following statements about real options is true?",
       "questionType": "choice",
       "options": [
-        "A. Using option pricing models estimates an option’s value with the highest accuracy.",
-        "B. Real options allow companies to abandon an investment project if its profitability is poor.",
-        "C. Real options would allow a refinery to hedge future prices of crude oil needed for production."
+        "Using option pricing models estimates an option’s value with the highest accuracy.",
+        "Real options allow companies to abandon an investment project if its profitability is poor.",
+        "Real options would allow a refinery to hedge future prices of crude oil needed for production."
       ],
       "myAnswer": "",
       "correctAnswer": "B",
@@ -1262,9 +1262,9 @@
       "question": "5. The amount and type of financing needed or the weights in the WACC calculation depend on the issuer’s:",
       "questionType": "choice",
       "options": [
-        "A. business model.",
-        "B. financial leverage.",
-        "C. proportion of fixed cost to total costs."
+        "business model.",
+        "financial leverage.",
+        "proportion of fixed cost to total costs."
       ],
       "myAnswer": "",
       "correctAnswer": "A",
@@ -1318,9 +1318,9 @@
       "question": "3. MM Proposition II without taxes differs from MM Proposition I without taxes since it concludes that:",
       "questionType": "choice",
       "options": [
-        "A. WACC is unaffected by capital structure.",
-        "B. the value of the levered firm is equal to that of the unlevered firm.",
-        "C. higher leverage raises the cost of equity, which exactly offsets the lower cost of debt."
+        "WACC is unaffected by capital structure.",
+        "the value of the levered firm is equal to that of the unlevered firm.",
+        "higher leverage raises the cost of equity, which exactly offsets the lower cost of debt."
       ],
       "myAnswer": "",
       "correctAnswer": "C",
@@ -1335,9 +1335,9 @@
       "question": "12. When a publicly traded company's target capital structure is unknown, which of the following is most likely an acceptable proxy?",
       "questionType": "choice",
       "options": [
-        "A. Equal weights for debt and equity",
-        "B. The company’s current capital structure at book value weights",
-        "C. An unweighted average of comparable companies’ capital structures"
+        "Equal weights for debt and equity",
+        "The company’s current capital structure at book value weights",
+        "An unweighted average of comparable companies’ capital structures"
       ],
       "myAnswer": "",
       "correctAnswer": "C",
@@ -1365,9 +1365,9 @@
       "question": "6. ____________ involves user communities that enable voluntary collaboration between users of a product with generally a small amount of moderation and oversight by the community host or operator.",
       "questionType": "choice",
       "options": [
-        "A. Franchising",
-        "B. Crowdsourcing",
-        "C. A loyalty program"
+        "Franchising",
+        "Crowdsourcing",
+        "A loyalty program"
       ],
       "myAnswer": "",
       "correctAnswer": "B",
@@ -1382,9 +1382,9 @@
       "question": "1. All else equal, in the fiscal year when long-lived equipment is purchased:",
       "questionType": "choice",
       "options": [
-        "A. depreciation expense increases.",
-        "B. cash from operations decreases.",
-        "C. net income is reduced by the amount of the purchase."
+        "depreciation expense increases.",
+        "cash from operations decreases.",
+        "net income is reduced by the amount of the purchase."
       ],
       "myAnswer": "",
       "correctAnswer": "A",
@@ -1412,9 +1412,9 @@
       "question": "5. With respect to Statement 3, what is the most likely effect of the impairment loss?",
       "questionType": "choice",
       "options": [
-        "A. Net income in years prior to 2009 was likely understated.",
-        "B. Net profit margins in years after 2009 will likely exceed the 2009 net profit margin.",
-        "C. Cash flow from operating activities in 2009 was likely lower due to the impairment loss."
+        "Net income in years prior to 2009 was likely understated.",
+        "Net profit margins in years after 2009 will likely exceed the 2009 net profit margin.",
+        "Cash flow from operating activities in 2009 was likely lower due to the impairment loss."
       ],
       "myAnswer": "",
       "correctAnswer": "B",
@@ -1468,9 +1468,9 @@
       "question": "1. Under IFRS, income includes increases in economic benefits from:",
       "questionType": "choice",
       "options": [
-        "A. increases in liabilities not related to owners’ contributions.",
-        "B. enhancements of assets not related to owners’ contributions.",
-        "C. increases in owners’ equity related to owners’ contributions."
+        "increases in liabilities not related to owners’ contributions.",
+        "enhancements of assets not related to owners’ contributions.",
+        "increases in owners’ equity related to owners’ contributions."
       ],
       "myAnswer": "",
       "correctAnswer": "B",
@@ -1485,9 +1485,9 @@
       "question": "5. Under IFRS, a loss from the destruction of property in a fire would most likely be classified as:",
       "questionType": "choice",
       "options": [
-        "A. continuing operations.",
-        "B. discontinued operations.",
-        "C. other comprehensive income."
+        "continuing operations.",
+        "discontinued operations.",
+        "other comprehensive income."
       ],
       "myAnswer": "",
       "correctAnswer": "A",
@@ -1502,9 +1502,9 @@
       "question": "14.5\nCost of goods sold\n5.7\n7.7\nAdministration costs\n1.9\n2.2\nInterest expense\n0.3\n0.7\nResearch and development expenses\n1.5\n1.7\nBetter margin performance will be reported by:",
       "questionType": "choice",
       "options": [
-        "A. Company Y at the gross margin level and Company X at the operating margin level.",
-        "B. Company Y at both the gross margin and operating margin levels.",
-        "C. Company X at the gross margin level and Company Y at the operating margin level."
+        "Company Y at the gross margin level and Company X at the operating margin level.",
+        "Company Y at both the gross margin and operating margin levels.",
+        "Company X at the gross margin level and Company Y at the operating margin level."
       ],
       "myAnswer": "",
       "correctAnswer": "C",
@@ -1519,9 +1519,9 @@
       "question": "10. Zimt AG wrote down the value of its inventory in 2017 and reversed the write-down in 2018. Compared to the results the company would have reported if the write-down had never occurred, Zimt’s reported that the 2018:",
       "questionType": "choice",
       "options": [
-        "A. profit was overstated.",
-        "B. cash flow from operations was overstated.",
-        "C. year-end inventory balance was overstated."
+        "profit was overstated.",
+        "cash flow from operations was overstated.",
+        "year-end inventory balance was overstated."
       ],
       "myAnswer": "",
       "correctAnswer": "A",
@@ -1536,9 +1536,9 @@
       "question": "15. The costs least likely to be included by the CFO as inventory are:",
       "questionType": "choice",
       "options": [
-        "A. storage costs for the chocolate liquor.",
-        "B. excise taxes paid to the government of Brazil for the cacao beans.",
-        "C. storage costs for chocolate and purchased finished goods awaiting shipment to customers."
+        "storage costs for the chocolate liquor.",
+        "excise taxes paid to the government of Brazil for the cacao beans.",
+        "storage costs for chocolate and purchased finished goods awaiting shipment to customers."
       ],
       "myAnswer": "",
       "correctAnswer": "C",
@@ -1566,9 +1566,9 @@
       "question": "18. The most accurate statement regarding Annan’s reasoning for requiring Kern to select a competitor that reports under IFRS for comparative purposes is that under US GAAP:",
       "questionType": "choice",
       "options": [
-        "A. fair values are used to value inventory.",
-        "B. the LIFO method is permitted to value inventory.",
-        "C. the specific identification method is permitted to value inventory."
+        "fair values are used to value inventory.",
+        "the LIFO method is permitted to value inventory.",
+        "the specific identification method is permitted to value inventory."
       ],
       "myAnswer": "",
       "correctAnswer": "B",
@@ -1583,9 +1583,9 @@
       "question": "19. Annan’s statement regarding the perpetual and periodic inventory systems is most significant when which of the following costing systems is used?",
       "questionType": "choice",
       "options": [
-        "A. LIFO",
-        "B. FIFO",
-        "C. Specific identification"
+        "LIFO",
+        "FIFO",
+        "Specific identification"
       ],
       "myAnswer": "",
       "correctAnswer": "A",
@@ -1600,9 +1600,9 @@
       "question": "20. Ignoring any tax effect, the change in net realizable value of the black licorice jelly beans from 2017 to 2018 will most likely result in:",
       "questionType": "choice",
       "options": [
-        "A. an increase in gross profit of CHF7,775.",
-        "B. an increase in gross profit of CHF11,670.",
-        "C. no impact on cost of sales because under IFRS, write-downs cannot be reversed."
+        "an increase in gross profit of CHF7,775.",
+        "an increase in gross profit of CHF11,670.",
+        "no impact on cost of sales because under IFRS, write-downs cannot be reversed."
       ],
       "myAnswer": "",
       "correctAnswer": "A",
@@ -1643,9 +1643,9 @@
       "question": "25. Which company’s gross profit margin would best reflect current costs of the industry?",
       "questionType": "choice",
       "options": [
-        "A. Crux.",
-        "B. Rolby.",
-        "C. Mikko."
+        "Crux.",
+        "Rolby.",
+        "Mikko."
       ],
       "myAnswer": "",
       "correctAnswer": "C",
@@ -1660,9 +1660,9 @@
       "question": "28. The management discussion and analysis (MD&A) indicated that the prices of raw material, other production materials, and parts increased. Based on the inventory valuation methods described in Note 2, which inventory classification would least accurately reflect current prices?",
       "questionType": "choice",
       "options": [
-        "A. Raw materials",
-        "B. Finished goods",
-        "C. Work in process"
+        "Raw materials",
+        "Finished goods",
+        "Work in process"
       ],
       "myAnswer": "",
       "correctAnswer": "B",
@@ -1677,9 +1677,9 @@
       "question": "30. If ZP had prepared its financial statement in accordance with IFRS, the inventory turnover ratio (using average inventory) for 2018 would be:",
       "questionType": "choice",
       "options": [
-        "A. lower.",
-        "B. higher.",
-        "C. the same."
+        "lower.",
+        "higher.",
+        "the same."
       ],
       "myAnswer": "",
       "correctAnswer": "A",
@@ -1694,9 +1694,9 @@
       "question": "32. Which observation is most likely a result of looking only at the information reported in Exhibit 2, Note 9?",
       "questionType": "choice",
       "options": [
-        "A. Increased competition has led to lower unit sales.",
-        "B. There have been significant price increases in supplies.",
-        "C. Management expects a further downturn in sales during 2019."
+        "Increased competition has led to lower unit sales.",
+        "There have been significant price increases in supplies.",
+        "Management expects a further downturn in sales during 2019."
       ],
       "myAnswer": "",
       "correctAnswer": "C",
@@ -1711,9 +1711,9 @@
       "question": "1. Akihiko Takabe has designed a sophisticated forecasting model, which predicts the movements in the overall stock market, in the hope of earning a return in excess of a fair return for the risk involved. He uses the predictions of the model to decide whether to buy, hold, or sell the shares of an index fund that aims to replicate the movements of the stock market. Takabe would best be characterized as a(n):",
       "questionType": "choice",
       "options": [
-        "A. hedger.",
-        "B. investor.",
-        "C. information-motivated trader."
+        "hedger.",
+        "investor.",
+        "information-motivated trader."
       ],
       "myAnswer": "",
       "correctAnswer": "C",
@@ -1728,9 +1728,9 @@
       "question": "8. Consider a mutual fund that invests primarily in fixed-income securities that have been determined to be appropriate given the fund’s investment goal. Which of the following is least likely to be a part of this fund?",
       "questionType": "choice",
       "options": [
-        "A. Warrants.",
-        "B. Commercial paper.",
-        "C. Repurchase agreements."
+        "Warrants.",
+        "Commercial paper.",
+        "Repurchase agreements."
       ],
       "myAnswer": "",
       "correctAnswer": "A",
@@ -1745,9 +1745,9 @@
       "question": "11. Which of the following statements about exchange-traded funds is most correct?",
       "questionType": "choice",
       "options": [
-        "A. Exchange-traded funds are not backed by any assets.",
-        "B. The investment companies that create exchange-traded funds are financial intermediaries.",
-        "C. The transaction costs of trading shares of exchange-traded funds are substantially greater than the combined costs of trading the underlying assets of the fund."
+        "Exchange-traded funds are not backed by any assets.",
+        "The investment companies that create exchange-traded funds are financial intermediaries.",
+        "The transaction costs of trading shares of exchange-traded funds are substantially greater than the combined costs of trading the underlying assets of the fund."
       ],
       "myAnswer": "",
       "correctAnswer": "B",
@@ -1762,9 +1762,9 @@
       "question": "18. Pierre-Louis Robert just purchased a call option on shares of the Michelin Group. A few days ago he wrote a put option on Michelin shares. The call and put options have the same exercise price, expiration date, and number of shares underlying. Considering both positions, Robert’s exposure to the risk of the stock of the Michelin Group is:",
       "questionType": "choice",
       "options": [
-        "A. long.",
-        "B. short.",
-        "C. neutral."
+        "long.",
+        "short.",
+        "neutral."
       ],
       "myAnswer": "",
       "correctAnswer": "A",
@@ -1779,9 +1779,9 @@
       "question": "22. Caroline Rogers believes the price of Gamma Corp. stock will go down in the near future. She has decided to sell short 200 shares of Gamma Corp. at the current market price of €47. The initial margin requirement is 40 percent. Which of the following is an appropriate statement regarding the margin requirement that Rogers is subject to on this short sale?",
       "questionType": "choice",
       "options": [
-        "A. She will need to contribute €3,760 as margin.",
-        "B. She will need to contribute €5,640 as margin.",
-        "C. She will only need to leave the proceeds from the short sale as deposit and does not need to contribute any additional funds."
+        "She will need to contribute €3,760 as margin.",
+        "She will need to contribute €5,640 as margin.",
+        "She will only need to leave the proceeds from the short sale as deposit and does not need to contribute any additional funds."
       ],
       "myAnswer": "",
       "correctAnswer": "A",
@@ -1809,9 +1809,9 @@
       "question": "124.50\n7\nA new buy limit order is placed for 300 shares at ¥123.40. This limit order is said to:",
       "questionType": "choice",
       "options": [
-        "A. take the market.",
-        "B. make the market.",
-        "C. make a new market."
+        "take the market.",
+        "make the market.",
+        "make a new market."
       ],
       "myAnswer": "",
       "correctAnswer": "C",
@@ -1826,9 +1826,9 @@
       "question": "27. You have placed a sell market-on-open order—a market order that would automatically be submitted at the market’s open tomorrow and would fill at the market price. Your instruction, to sell the shares at the market open, is a(n):",
       "questionType": "choice",
       "options": [
-        "A. execution instruction.",
-        "B. validity instruction.",
-        "C. clearing instruction."
+        "execution instruction.",
+        "validity instruction.",
+        "clearing instruction."
       ],
       "myAnswer": "",
       "correctAnswer": "B",
@@ -1843,9 +1843,9 @@
       "question": "20.29",
       "questionType": "choice",
       "options": [
-        "A. Order I (time of arrival of 9:52:01).",
-        "B. Order II (time of arrival of 9:52:08).",
-        "C. Order III (time of arrival of 9:53:04)."
+        "Order I (time of arrival of 9:52:01).",
+        "Order II (time of arrival of 9:52:08).",
+        "Order III (time of arrival of 9:53:04)."
       ],
       "myAnswer": "",
       "correctAnswer": "C",

@@ -30,37 +30,74 @@ function mergeQuestionAndOptions(question, options) {
   return (question || '') + '\n\n' + prefixed.join('\n');
 }
 
-function saveManualError() {
+async function saveManualError() {
   const rawText = document.getElementById('errorQuestion').value.trim();
   const chapter = document.getElementById('errorChapter').value;
   const qType = document.getElementById('errorType').value;
   if (!rawText) { showToast('请填写题目内容', 'warning'); return; }
-  const parsed = qType === 'choice' ? parseQuestionAndOptions(rawText) : { question: rawText, options: [] };
+
+  // 判断批量录入
+  const isBatch = rawText.includes('【题目】');
+  const blocks = isBatch
+    ? rawText.split('【题目】').map(s => s.trim()).filter(Boolean)
+    : [rawText];
+
   const officialHtml = AppState.quillNew ? AppState.quillNew.root.innerHTML : '';
-  const data = {
-    chapterId: chapter,
-    title: parsed.question.slice(0, 40) + (parsed.question.length > 40 ? '...' : ''),
-    question: parsed.question,
-    questionType: qType,
-    myAnswer: document.getElementById('errorMyAnswer').value.trim().toUpperCase(),
-    officialExplanation: officialHtml,
-    tags: document.getElementById('errorTags').value.split(',').map(s => s.trim()).filter(Boolean)
-  };
-  if (qType === 'choice') {
-    data.options = parsed.options;
-    data.correctAnswer = document.getElementById('errorCorrectAnswer').value.trim().toUpperCase();
-  } else {
-    data.options = [];
-    data.fillBlanks = document.getElementById('errorFillAnswers').value.trim().split('\n').filter(Boolean);
-    data.correctAnswer = data.fillBlanks.join('; ').toUpperCase();
+  const singleMyAnswer = document.getElementById('errorMyAnswer').value.trim().toUpperCase();
+  const singleCorrectAnswer = document.getElementById('errorCorrectAnswer').value.trim().toUpperCase();
+  const tags = document.getElementById('errorTags').value.split(',').map(s => s.trim()).filter(Boolean);
+
+  let count = 0;
+  for (const block of blocks) {
+    const parsed = qType === 'choice' ? parseQuestionAndOptions(block) : { question: block, options: [] };
+
+    // 尝试从文本中提取答案和解析
+    const caMatch = block.match(/Correct Answer:\s*([A-Da-d]|\S+)/i);
+    const textCorrectAnswer = caMatch ? caMatch[1].trim().toUpperCase() : '';
+    const maMatch = block.match(/My Answer:\s*([A-Da-d]|\S+)/i);
+    const textMyAnswer = maMatch ? maMatch[1].trim().toUpperCase() : '';
+
+    // 解析：Correct Answer 后面的文本
+    let explanation = isBatch ? '' : officialHtml;
+    if (isBatch) {
+      const caIndex = block.indexOf('Correct Answer:');
+      if (caIndex !== -1) {
+        const afterCA = block.slice(caIndex);
+        const nl = afterCA.search(/\n/);
+        if (nl !== -1) {
+          explanation = afterCA.slice(nl + 1).trim();
+        }
+      }
+    }
+
+    const data = {
+      chapterId: chapter,
+      title: parsed.question.slice(0, 40) + (parsed.question.length > 40 ? '...' : ''),
+      question: parsed.question,
+      questionType: qType,
+      myAnswer: textMyAnswer || (!isBatch ? singleMyAnswer : ''),
+      officialExplanation: explanation,
+      tags: tags
+    };
+
+    if (qType === 'choice') {
+      data.options = parsed.options;
+      data.correctAnswer = textCorrectAnswer || (!isBatch ? singleCorrectAnswer : '');
+    } else {
+      data.options = [];
+      data.fillBlanks = document.getElementById('errorFillAnswers').value.trim().split('\n').filter(Boolean);
+      data.correctAnswer = data.fillBlanks.join('; ').toUpperCase();
+    }
+
+    await Errors.add(data);
+    count++;
   }
-  Errors.add(data).then(() => {
-    closeAllModals();
-    showToast('错题已保存', 'success');
-    clearErrorForm();
-    if (AppState.currentView === 'library') renderLibrary();
-    if (AppState.currentView === 'dashboard') DASHBOARD.refresh();
-  });
+
+  closeAllModals();
+  showToast(isBatch ? '成功保存 ' + count + ' 道错题' : '错题已保存', 'success');
+  clearErrorForm();
+  if (AppState.currentView === 'library') renderLibrary();
+  if (AppState.currentView === 'dashboard') DASHBOARD.refresh();
 }
 
 function clearErrorForm() {

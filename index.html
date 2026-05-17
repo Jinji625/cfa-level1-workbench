@@ -425,8 +425,9 @@
           </select>
         </div>
         <div class="form-group">
-          <label>题目内容 *</label>
-          <textarea id="errorQuestion" class="form-control" rows="5" placeholder="粘贴题目内容，选择题选项直接写在下方（每行一个）&#10;例如：&#10;A. option 1&#10;B. option 2&#10;C. option 3&#10;&#10;填空题请用 ____ 表示填空位置"></textarea>
+          <label>题目内容 *（支持批量录入）</label>
+          <textarea id="errorQuestion" class="form-control" rows="6" placeholder="粘贴题目内容，选择题选项直接写在下方&#10;支持批量录入：用 【题目】 分隔多道题&#10;&#10;【题目】&#10;3. The risk premium...&#10;A. option 1&#10;B. option 2&#10;C. option 3&#10;Correct Answer: A&#10;解析内容...&#10;&#10;【题目】&#10;4. A fund receives...&#10;A. option 1&#10;B. option 2&#10;C. option 3&#10;Correct Answer: C&#10;&#10;填空题请用 ____ 表示填空位置"></textarea>
+          <span class="form-hint">单题直接粘贴即可；多题请在每道题前加 【题目】 分隔</span>
         </div>
         <div class="form-group hidden" id="groupFillAnswers">
           <label>填空答案（每行一个，按 ____ 出现顺序）</label>

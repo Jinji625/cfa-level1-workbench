@@ -1,0 +1,1859 @@
+{
+  "version": 3,
+  "exportedAt": "2025-05-16T00:00:00.000Z",
+  "errors": [
+    {
+      "chapterId": "quant",
+      "title": "4. A portfolio manager invests EUR5,000 ...",
+      "question": "4. A portfolio manager invests EUR5,000 annually in a security for four years at the following prices:\nThe average price is best represented as the:",
+      "questionType": "choice",
+      "options": [
+        "A. harmonic mean of EUR76.48.",
+        "B. geometric mean of EUR77.26.",
+        "C. arithmetic average of EUR78.00."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "A",
+      "officialExplanation": "【1.03】The harmonic mean is a relatively specialized concept of the mean that is appropriate for averaging ratios (“amount per unit”) when the ratios are repeatedly applied to a fixed quantity to yield a variable number of units.\nThe harmonic mean is appropriate for determining the average price per unit as it gives equal weight to each data point and reduces the potential influence of outliers.",
+      "tags": [],
+      "createdAt": 1715702400000,
+      "updatedAt": 1715702400000
+    },
+    {
+      "chapterId": "quant",
+      "title": "6. A fund receives investments at the be...",
+      "question": "6. A fund receives investments at the beginning of each year and generates returns for three years as follows:\nWhich return measure over the three-year period is negative?",
+      "questionType": "choice",
+      "options": [
+        "A. Geometric mean return",
+        "B. Time-weighted rate of return",
+        "C. Money-weighted rate of return"
+      ],
+      "myAnswer": "",
+      "correctAnswer": "C",
+      "officialExplanation": "【1.04】Money-weighted return: a measure considers both the timing and amounts of investments into the fund. *计算同IRR\nTime-weighted rate of return: a measure that is not sensitive to the timing and amounts of withdrawals or additions to the portfolio. *计算同geometric mean return",
+      "tags": [],
+      "createdAt": 1715702401000,
+      "updatedAt": 1715702401000
+    },
+    {
+      "chapterId": "quant",
+      "title": "13. At the beginning of the year, an inv...",
+      "question": "13. At the beginning of the year, an investor holds EUR10,000 in a hedge fund. The investor borrowed 25 percent of the purchase price, EUR2,500, at an annual interest rate of 6 percent and expects to pay a 30 percent tax on the return she earns from his investment. At the end of the year, the hedge fund reported the information below:\nThe investor’s after-tax return on the hedge fund investment is closest to:",
+      "questionType": "choice",
+      "options": [],
+      "myAnswer": "",
+      "correctAnswer": "5.00%",
+      "officialExplanation": "Trading expenses are already reflected in the gross return, so they are not subtracted.",
+      "tags": [],
+      "createdAt": 1715702402000,
+      "updatedAt": 1715702402000
+    },
+    {
+      "chapterId": "quant",
+      "title": "17. The quarterly returns on a portfolio...",
+      "question": "17. The quarterly returns on a portfolio are as follows:\nQuarter\n1\n2\n3\n4\nReturn\n20%\n−20%\n10%\n−10%\nThe time-weighted rate of return of the portfolio is closest to:",
+      "questionType": "choice",
+      "options": [],
+      "myAnswer": "",
+      "correctAnswer": "−5.0%.",
+      "officialExplanation": "Quarterly vs Yearly",
+      "tags": [],
+      "createdAt": 1715702403000,
+      "updatedAt": 1715702403000
+    },
+    {
+      "chapterId": "quant",
+      "title": "20. Using a discount rate of 5%, compoun...",
+      "question": "20. Using a discount rate of 5%, compounded monthly, the present value (PV) of $5,000 to be received three years from today is closest to:",
+      "questionType": "choice",
+      "options": [],
+      "myAnswer": "",
+      "correctAnswer": "$4,305",
+      "officialExplanation": "求的是PV",
+      "tags": [],
+      "createdAt": 1715702404000,
+      "updatedAt": 1715702404000
+    },
+    {
+      "chapterId": "quant",
+      "title": "28. Consider the investment in the follo...",
+      "question": "28. Consider the investment in the following table:\nStart of Year 1\nOne share purchased at $100\nEnd of Year 1\n$5.00 dividend/share paid and one additional share purchased at $125\nEnd of Year 2\n$5.00 dividend/share paid and both shares are sold for $140 per share\nAssuming dividends are not reinvested, the time-weighted return is:",
+      "questionType": "choice",
+      "options": [],
+      "myAnswer": "",
+      "correctAnswer": "22.80%",
+      "officialExplanation": "Holding Period Return Year 2 = ($290 − $250)/$250 = 16.0%",
+      "tags": [],
+      "createdAt": 1715702405000,
+      "updatedAt": 1715702405000
+    },
+    {
+      "chapterId": "quant",
+      "title": "39. An investor summarizes end-of-year c...",
+      "question": "39. An investor summarizes end-of-year cash outlays and proceeds from a two-year investment in a company's shares below:\nYear\nOutlays\nProceeds\n0\n$100 to purchase the first share\n---\n1\n$110 to purchase the second share\n$10 dividend received from first share (not reinvested)\n2\n---\n$230 received from selling two shares at $115 per share\nThe annualized time-weighted rate of return of the investment over the two-year period is closest to:",
+      "questionType": "choice",
+      "options": [],
+      "myAnswer": "",
+      "correctAnswer": "12.0%",
+      "officialExplanation": "HPR1 = [(110 – 100) + 10]/100 p.s. (110 – 100) 为股价上升带来的资本利得\nHPR2 = [(230 – 220) + 0]/220",
+      "tags": [],
+      "createdAt": 1715702406000,
+      "updatedAt": 1715702406000
+    },
+    {
+      "chapterId": "quant",
+      "title": "5. Consider a Swiss Confederation zero-c...",
+      "question": "5. Consider a Swiss Confederation zero-coupon bond with a par value of CHF100, a remaining time to maturity of 12 years and a price of CHF89. In three years’ time, the bond is expected to have a price of CHF95.25. If purchased today, the bond’s expected annualized return is closest to:",
+      "questionType": "choice",
+      "options": [],
+      "myAnswer": "",
+      "correctAnswer": "2.29",
+      "officialExplanation": "FV=95.25, PV=CHF89, n=3",
+      "tags": [],
+      "createdAt": 1715702407000,
+      "updatedAt": 1715702407000
+    },
+    {
+      "chapterId": "quant",
+      "title": "6.Grupo Ignacia issued 10-year corporate...",
+      "question": "6.Grupo Ignacia issued 10-year corporate bonds four years ago. The bonds pay an annualized coupon of 10.7 percent on a semiannual basis, and the current price of the bonds is MXN97.50 per MXN100 of par value. The YTM of the bonds is closest to:",
+      "questionType": "choice",
+      "options": [],
+      "myAnswer": "",
+      "correctAnswer": "11.28",
+      "officialExplanation": "N=6*2, PMT=10.7/2, FV=100, PV=97.5\n*以上算出的结果为半年收益率，还要乘2得年化收益率",
+      "tags": [],
+      "createdAt": 1715702408000,
+      "updatedAt": 1715702408000
+    },
+    {
+      "chapterId": "quant",
+      "title": "8. If you require an 8 percent return an...",
+      "question": "8. If you require an 8 percent return and must invest USD500,000, which of the investment opportunities should you prefer?",
+      "questionType": "choice",
+      "options": [],
+      "myAnswer": "",
+      "correctAnswer": "INDIFFERENT",
+      "officialExplanation": "Using cash flow additivity, compare the two opportunities by subtracting Opportunity 2 from Opportunity 1, then find the present value of the above cash flows at 8 percent discount rate.",
+      "tags": [],
+      "createdAt": 1715702409000,
+      "updatedAt": 1715702409000
+    },
+    {
+      "chapterId": "quant",
+      "title": "12. A stock currently trades at USD25. I...",
+      "question": "12. A stock currently trades at USD25. In one year, it will either increase in value to USD35 or decrease to USD15. An investor sells a call option on the stock, granting the buyer the right, but not the obligation, to buy the stock at USD25 in one year. At the same time, the investor buys 0.5 units of the stock. Which of the following statements about the value of the investor’s portfolio at the end of one year is correct?",
+      "questionType": "choice",
+      "options": [
+        "A. The portfolio has a value of USD7.50 in both scenarios.",
+        "B. The portfolio has a value of USD25 in both scenarios.",
+        "C. The portfolio has a value of USD17.50 if the stock goes up and USD7.50 if the stock goes down."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "A",
+      "officialExplanation": "组合一年后总价值 = 看涨期权空头的期末价值 + 股票的期末价值\n股价上涨时\n股价下跌时\n看涨期权空头的期末价值\n买方收益为Max(35−25,0) = 10，则卖方收益为-10\n买方收益为Max(15−25,0) = 0，则卖方收益为0\n股票的期末价值",
+      "tags": [],
+      "createdAt": 1715702410000,
+      "updatedAt": 1715702410000
+    },
+    {
+      "chapterId": "quant",
+      "title": "16. An individual wants to be able to sp...",
+      "question": "16. An individual wants to be able to spend €80,000 per year for an anticipated 25 years in retirement. To fund this retirement account, he will make annual deposits of €6,608 at the end of each of his working years. He can earn 6% compounded annually on all investments. The minimum number of deposits that are needed to reach his retirement goal is closest to:",
+      "questionType": "choice",
+      "options": [],
+      "myAnswer": "",
+      "correctAnswer": "40.",
+      "officialExplanation": "Step 1 N = 25; I/Y = 6; PMT = 80,000; FV= 0; Mode = End，得PV=1,022,668.\nStep 2 FV=1,022,668; I/Y = 6; PV=0; PMT = −6,608; Mode = End，得N",
+      "tags": [],
+      "createdAt": 1715702411000,
+      "updatedAt": 1715702411000
+    },
+    {
+      "chapterId": "quant",
+      "title": "27.37%",
+      "question": "27.37%",
+      "questionType": "choice",
+      "options": [],
+      "myAnswer": "",
+      "correctAnswer": "26.03",
+      "officialExplanation": "【插值法】\n第 80 百分位数位置 = (n+1)×p/100= (10+1)×0.80=11×0.8=8.8\n插值：20.65%+0.8×(27.37%−20.65%)=26.026%",
+      "tags": [],
+      "createdAt": 1715702412000,
+      "updatedAt": 1715702412000
+    },
+    {
+      "chapterId": "quant",
+      "title": "15. For a given expected return and stan...",
+      "question": "15. For a given expected return and standard deviation, investors are most likely to be attracted to return distributions that are:",
+      "questionType": "choice",
+      "options": [
+        "A. negatively skewed.",
+        "B. positively skewed.",
+        "C. normal."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "B",
+      "officialExplanation": "负偏态（别称：左偏态）\n收益分布特征：均值左侧的尾部更长（极端低损失的概率更高），右侧尾部更短（极端高收益的概率更低）；\n通俗理解：“小赚常遇，大亏难逃”，大部分时候收益围绕均值小幅波动，偶尔的高收益空间有限，却可能遭遇超预期的大幅亏损。\n正偏态（别称：右偏态）\n收益分布特征：均值右侧的尾部更长（极端高收益的概率更高），左侧尾部更短（极端低损失的概率更低）；\n通俗理解：“小亏常遇，大赚可期”，大部分时候收益围绕均值小幅波动，偶尔能获得超预期的高收益，且大幅亏损的可能性小。",
+      "tags": [],
+      "createdAt": 1715702413000,
+      "updatedAt": 1715702413000
+    },
+    {
+      "chapterId": "quant",
+      "title": "6. When working backward from the nodes ...",
+      "question": "6. When working backward from the nodes on a binomial tree diagram, the analyst is most likely attempting to calculate:",
+      "questionType": "choice",
+      "options": [
+        "A. the number of potential outcomes.",
+        "B. the probability of a given scenario.",
+        "C. an expected value as of today."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "C",
+      "officialExplanation": "二叉树用于定价期权或估值不确定资产时，通常步骤是：\n从当前时刻（t=0）出发，按一定步长画到未来某些节点（可能的资产价格）。\n在最后时刻（到期日）计算期权的价值（或资产收益）。\n然后从未来节点往后折现到前一个时间点，直至算出 t=0的价值。",
+      "tags": [],
+      "createdAt": 1715702414000,
+      "updatedAt": 1715702414000
+    },
+    {
+      "chapterId": "quant",
+      "title": "4. Deep River Manufacturing is one of ma...",
+      "question": "4. Deep River Manufacturing is one of many companies in an industry that makes a food product. Deep River units are identical up to the point they are labeled. Deep River produces its labeled brand, which sells for $2.20 per unit, and “house brands” for seven different grocery chains, which sell for $2.00 per unit. Each grocery chain sells both the Deep River brand and its house brand. The best characterization of Deep River’s market is:",
+      "questionType": "choice",
+      "options": [],
+      "myAnswer": "",
+      "correctAnswer": "MONOPOLISTIC",
+      "officialExplanation": "",
+      "tags": [],
+      "createdAt": 1715702415000,
+      "updatedAt": 1715702415000
+    },
+    {
+      "chapterId": "quant",
+      "title": "4. A company has total variable costs of...",
+      "question": "4. A company has total variable costs of $4 million and fixed costs of $3 million. Based on this information, the company will stay in the market in the long term if total revenue is at least:",
+      "questionType": "choice",
+      "options": [],
+      "myAnswer": "",
+      "correctAnswer": "$7.0",
+      "officialExplanation": "A company will stay in the market in the long term if total revenue is equal to or greater than total cost.",
+      "tags": [],
+      "createdAt": 1715702416000,
+      "updatedAt": 1715702416000
+    },
+    {
+      "chapterId": "quant",
+      "title": "12. Aquarius, Inc. is the dominant compa...",
+      "question": "12. Aquarius, Inc. is the dominant company and the price leader in its market. One of the other companies in the market attempts to gain market share by undercutting the price set by Aquarius. The market share of Aquarius will most likely:",
+      "questionType": "choice",
+      "options": [],
+      "myAnswer": "",
+      "correctAnswer": "INCREASE",
+      "officialExplanation": "As prices decrease, smaller companies will leave the market rather than sell below cost. The market share of Aquarius, the price leader, will increase.",
+      "tags": [],
+      "createdAt": 1715702417000,
+      "updatedAt": 1715702417000
+    },
+    {
+      "chapterId": "quant",
+      "title": "14. Three firms operate under perfect co...",
+      "question": "14. Three firms operate under perfect competition, producing 900 units of the same product but using different production technologies. Each company’s cost structure is indicated in the table:\nWhich of the following statements is most accurate? If the unit selling price is:A. $6.00, all firms should exit the market in the long run.",
+      "questionType": "choice",
+      "options": [
+        "B. $3.00, Firm X should continue to operate in the short run, but Firms Y and Z should shut down production.",
+        "C. $4.50, all firms should continue to operate in the short run, but exit the market in the long run if these conditions are expected to persist."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "B",
+      "officialExplanation": "*误解了题意：If the unit selling price is",
+      "tags": [],
+      "createdAt": 1715702418000,
+      "updatedAt": 1715702418000
+    },
+    {
+      "chapterId": "quant",
+      "title": "18. With its existing production facilit...",
+      "question": "18. With its existing production facilities, a monopolist firm can produce up to 100 units. It faces the following demand and cost schedules:\nThe optimal output level for this producer (in units) is closest to:",
+      "questionType": "choice",
+      "options": [],
+      "myAnswer": "",
+      "correctAnswer": "60",
+      "officialExplanation": "即求利润最大化，max(TR-TC)\n*想复杂了",
+      "tags": [],
+      "createdAt": 1715702419000,
+      "updatedAt": 1715702419000
+    },
+    {
+      "chapterId": "quant",
+      "title": "21. The two dominant supermarket chains ...",
+      "question": "21. The two dominant supermarket chains in the area are attempting to increase their market share by moving to 24-hour service instead of closing at 9 p.m. every night. The strategic outcomes and payoff matrix that arise from their actions are depicted in the diagram (with the shaded sections representing payoffs for Chain 2).\nThe most likely Nash equilibrium strategy for the two chains is for:",
+      "questionType": "choice",
+      "options": [],
+      "myAnswer": "",
+      "correctAnswer": "B",
+      "officialExplanation": "*读图：对于Chain 2，b vs a，d vs c；对于Chain 1，3 vs 1，4 vs 2\nabdcabdc12431243\na\nb\nd\nc\na\nb\nd\nc\n1\n2\n4\n3\n1\n2\n4\n3",
+      "tags": [],
+      "createdAt": 1715702420000,
+      "updatedAt": 1715702420000
+    },
+    {
+      "chapterId": "quant",
+      "title": "23. In long-run equilibrium, the perfect...",
+      "question": "23. In long-run equilibrium, the perfectly competitive firm's supply curve is best represented by the firm's long-run:",
+      "questionType": "choice",
+      "options": [],
+      "myAnswer": "",
+      "correctAnswer": "MARGINAL",
+      "officialExplanation": "In a perfectly competitive market structure the firm’s demand schedule is the same as the firm’s MR and average revenue. The answer is the level of output that maximizes its return where MR = MC.",
+      "tags": [],
+      "createdAt": 1715702421000,
+      "updatedAt": 1715702421000
+    },
+    {
+      "chapterId": "quant",
+      "title": "26. Each oligopoly firm faces an individ...",
+      "question": "26. Each oligopoly firm faces an individual demand curve under:",
+      "questionType": "choice",
+      "options": [],
+      "myAnswer": "",
+      "correctAnswer": "NON-COLLUDING",
+      "officialExplanation": "In an oligopoly market where collusion is present, firms face the aggregate market demand curve市场总需求曲线.\n市场状态\n企业行为逻辑\n需求曲线性质\n勾结\n联合垄断，统一决策\n整体面对市场总需求曲线，企业仅分配产量\n非勾结\n独立决策，相互博弈\n每个企业面对自己的个体需求曲线（如弯折的需求曲线）",
+      "tags": [],
+      "createdAt": 1715702422000,
+      "updatedAt": 1715702422000
+    },
+    {
+      "chapterId": "quant",
+      "title": "1. Which of the following rules is most ...",
+      "question": "1. Which of the following rules is most likely to be used to determine whether the economy is in a recession?",
+      "questionType": "choice",
+      "options": [
+        "A. The central bank has run out of foreign reserves.",
+        "B. Real GDP has two consecutive quarters of negative growth.",
+        "C. Economic activity experiences a significant decline in two business sectors."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "B",
+      "officialExplanation": "",
+      "tags": [],
+      "createdAt": 1715702423000,
+      "updatedAt": 1715702423000
+    },
+    {
+      "chapterId": "quant",
+      "title": "2. Suppose you are interested in forecas...",
+      "question": "2. Suppose you are interested in forecasting earnings growth for a company active in a country where no official business cycle dating committee (such as the NBER) exists. The variables you are most likely to consider to identify peaks and troughs of a country’s business cycle are:",
+      "questionType": "choice",
+      "options": [
+        "A. inflation, interest rates, and unemployment.",
+        "B. stock market values and money supply.",
+        "C. unemployment, GDP growth, industrial production, and inflation."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "C",
+      "officialExplanation": "Unemployment, GDP growth, industrial production, and inflation are measures of economic activity. The discount rate and monetary base are determined by monetary policy, which react to economic activities, whereas the stock market indexes tend to be forward looking or leading indicators of the economy.",
+      "tags": [],
+      "createdAt": 1715702424000,
+      "updatedAt": 1715702424000
+    },
+    {
+      "chapterId": "quant",
+      "title": "1. Although a small part of the overall ...",
+      "question": "1. Although a small part of the overall economy, changes in inventories can influence economic growth measures significantly because they:",
+      "questionType": "choice",
+      "options": [
+        "A. reflect general business sentiment.",
+        "B. tend to move forcefully up or down.",
+        "C. determine the availability of goods for sale."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "B",
+      "officialExplanation": "Inventory levels can fluctuate dramatically over the business cycle.",
+      "tags": [],
+      "createdAt": 1715702425000,
+      "updatedAt": 1715702425000
+    },
+    {
+      "chapterId": "quant",
+      "title": "2. Inventories tend to rise when:",
+      "question": "2. Inventories tend to rise when:",
+      "questionType": "choice",
+      "options": [
+        "A. inventory–sales ratios are low.",
+        "B. inventory–sales ratios are high.",
+        "C. economic activity begins to rebound."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "A",
+      "officialExplanation": "C is incorrect because in the early stages of a recovery, inventories are likely to fall as sales increase faster than production.",
+      "tags": [],
+      "createdAt": 1715702426000,
+      "updatedAt": 1715702426000
+    },
+    {
+      "chapterId": "quant",
+      "title": "2. A diffusion index:",
+      "question": "2. A diffusion index:",
+      "questionType": "choice",
+      "options": [
+        "A. measures growth.",
+        "B. reflects the consensus change in economic indicators.",
+        "C. is roughly analogous to the indexes used to measure industrial production."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "B",
+      "officialExplanation": "  选项 A：扩散指数不直接衡量增长幅度，它只衡量有多少样本出现了上升 / 改善的趋势，而非增长的具体数值，因此 A 错误。\n  选项 B：扩散指数的核心是统计经济指标中 “上升” 样本的占比，反映的是市场主体对经济变化的共识性趋势，因此 B 正确。\n  选项 C：工业生产指数衡量的是产出的绝对增长幅度，而扩散指数衡量的是趋势的广度，二者有本质区别，并非类似，因此 C 错误。\n扩散指数的50是荣枯线（boom-bust line）。",
+      "tags": [],
+      "createdAt": 1715702427000,
+      "updatedAt": 1715702427000
+    },
+    {
+      "chapterId": "quant",
+      "title": "4. The following table shows the trends ...",
+      "question": "4. The following table shows the trends in various economic indicators in the two most recent quarters:\nEconomic Indicator\nTrend\nInterest rate spread between long-term government bonds and overnight borrowing rate\nNarrowing\nNew orders for capital goods\nDeclining\nResidential building permits\nDeclining\nEmployees on non-agricultural payrolls\nTurned from rising to falling\nManufacturing and trade sales\nStable\nAverage duration of unemployment\nSmall decline\nChange in unit labor costs\nRising\nGiven the information, this economy is most likely experiencing a:",
+      "questionType": "choice",
+      "options": [
+        "A. continuing recession.",
+        "B. peak in the business cycle.",
+        "C. strong recovery out of a trough."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "B",
+      "officialExplanation": "The first three indicators are leading indicators, and all of them are indicating an impending recession, which means the economy has reached the peak in this cycle.\nNon-agricultural payrolls and manufacturing and trade sales are coincident indicators. The trends in these two variables further indicate that the economy may begin to decline.\nThe trends in the last two indicators—both lagging indicators—indicate that the economy may either continue to grow or it may be close to a peak.\n利率利差收窄：长短期国债利差收窄是经济见顶、衰退临近的典型信号。\n资本品新订单下降、住宅建筑许可下降：资本品订单和住宅建筑许可都是领先指标，预示未来投资和房地产活动将走弱。\n非农就业人数由升转降：就业是同步指标，从增长转为下降，说明经济扩张动力已经耗尽。\n单位劳动成本上升：成本上升但需求开始走弱，进一步印证经济在周期顶部的压力。",
+      "tags": [],
+      "createdAt": 1715702428000,
+      "updatedAt": 1715702428000
+    },
+    {
+      "chapterId": "quant",
+      "title": "1. Based on typical labor utilization pa...",
+      "question": "1. Based on typical labor utilization patterns across the business cycle, productivity (output per hours worked) is most likely to be highest:",
+      "questionType": "choice",
+      "options": [
+        "A. at the peak of a boom.",
+        "B. into a maturing expansion.",
+        "C. at the bottom of a recession."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "C",
+      "officialExplanation": "衰退初期：产出快速下降，但企业保留冗余劳动力（“劳动力囤积”），导生产率下降。\n衰退谷底及复苏初期：产出可能已经停止下降，而工时仍在减少，企业调整劳动力（工时）的速度慢于调整产出的速度，导致 产出/工时 比率（即生产率）被暂时推高。这被称为 “劳动生产率周期” 或 “过度裁员”效应。\n扩张中期：企业为满足增长的需求会积极增加雇佣。但新员工通常效率较低（需要培训，且可能是边际上能力较弱的员工），同时现有员工加班增加（导致工时增长快于产出增长）。生产率增长往往会放缓甚至下降，不会达到周期最高点。\n繁荣顶峰：此时经济过热，劳动力市场紧张。企业会雇佣几乎所有可用的劳动力（包括效率较低者），加班普遍，设备超负荷运转导致效率下降。工时的增长可能超过产出的增长，因此生产率通常较低。",
+      "tags": [],
+      "createdAt": 1715702429000,
+      "updatedAt": 1715702429000
+    },
+    {
+      "chapterId": "quant",
+      "title": "2. As the expansion phase of the busines...",
+      "question": "2. As the expansion phase of the business cycle advances from early stage to late stage, businesses most likely experience a decrease in:",
+      "questionType": "choice",
+      "options": [
+        "A. labor costs.",
+        "B. capital investment.",
+        "C. availability of qualified workers."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "C",
+      "officialExplanation": "合格工人的可得性：随着扩张持续，劳动力需求不断增加。在扩张早期，失业率较高，企业可以轻松招聘到合格员工。但进入扩张晚期，失业率已降至低位，劳动力市场变得紧张，符合技能要求的工人（合格工人）日益稀缺。这是扩张晚期最典型、最普遍的特征之一。\n资本投资：在扩张阶段，企业为满足增长的需求并扩大产能，资本投资（如购买设备、新建厂房）通常会持续增加，尤其是在扩张中期至晚期。虽然投资增速可能在周期顶点前放缓，但绝对水平通常不会在扩张晚期“下降”。\n劳动力成本：在扩张晚期，劳动力市场紧张（合格工人稀缺）会推高工资（劳动力成本）。同时，企业可能需要支付加班费或提供更高薪酬以吸引员工。因此，劳动力成本在扩张晚期趋于上升，而非下降。",
+      "tags": [],
+      "createdAt": 1715702430000,
+      "updatedAt": 1715702430000
+    },
+    {
+      "chapterId": "quant",
+      "title": "3. An analyst writes in an economic repo...",
+      "question": "3. An analyst writes in an economic report that the current phase of the business cycle is characterized by accelerating inflationary pressures and borrowing by companies. The analyst is most likely referring to the:",
+      "questionType": "choice",
+      "options": [
+        "A. peak of the business cycle.",
+        "B. contraction phase of the business cycle.",
+        "C. early expansion phase of the business cycle."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "A",
+      "officialExplanation": "商业周期顶峰\n通胀压力加速：经济过热的标志。经济在长期扩张后已超过潜在产出水平，产能与劳动力市场高度紧张，导致工资和物价加速上涨。\n企业加大借贷：在乐观情绪和强劲利润的驱动下，企业为扩大产能、进行收购或金融投资而积极增加借贷。信贷标准往往在此阶段变得宽松，债务水平攀升。\n扩张早期阶段\n通胀压力温和甚至低迷：产能和劳动力仍有大量闲置，复苏初期不会立即引发通胀。\n企业借贷可能开始复苏但力度有限：企业对经济前景仍持谨慎态度，借贷主要用于补充库存或必要投资，而非大规模扩张。",
+      "tags": [],
+      "createdAt": 1715702431000,
+      "updatedAt": 1715702431000
+    },
+    {
+      "chapterId": "quant",
+      "title": "8. When the spread between 10-year US Tr...",
+      "question": "8. When the spread between 10-year US Treasury yields and the short-term federal funds rate narrows and at the same time the prime rate stays unchanged, this mix of indicators most likely forecasts future economic:",
+      "questionType": "choice",
+      "options": [],
+      "myAnswer": "",
+      "correctAnswer": "D",
+      "officialExplanation": "10年期美债收益率 - 联邦基金利率的利差收窄\n10年期美债收益率：代表长期增长和通胀预期。\n联邦基金利率：美联储设定的短期政策利率。\n利差收窄通常意味着：\n要么长期收益率下降（投资者对未来增长/通胀预期悲观，避险情绪升温），\n要么短期利率上升（美联储正在加息以遏制通胀或过热），\n或两者兼有。\n在现实中，利差收窄甚至倒挂（长期利率低于短期利率）是经济衰退的经典领先指标。\n最优惠利率保持不变：\n最优惠利率通常与联邦基金利率同步变动，但有时会滞后。\n如果最优惠利率在联邦基金利率可能已开始变化时保持不变，可能意味着银行对经济前景谨慎，不愿立即将资金成本变化完全传导给企业客户，或者货币政策传导存在延迟。\n结论：货币政策趋紧 + 长期增长预期恶化 + 银行信贷态度谨慎通常预示着未来经济增长将显著放缓，甚至可能陷入衰退。",
+      "tags": [],
+      "createdAt": 1715702432000,
+      "updatedAt": 1715702432000
+    },
+    {
+      "chapterId": "quant",
+      "title": "12. Which of the following is most likel...",
+      "question": "12. Which of the following is most likely to increase after an increase in aggregate real personal income?",
+      "questionType": "choice",
+      "options": [
+        "A. Equity prices",
+        "B. Building permits for new private housing units",
+        "C. The ratio of consumer installment debt to income"
+      ],
+      "myAnswer": "",
+      "correctAnswer": "C",
+      "officialExplanation": "Aggregate real personal income is a coincident indicator of the business cycle, and the ratio of consumer installment debt to income is a lagging indicator. Increases in the ratio of consumer installment debt follow increases in average aggregate income during the typical business cycle.\nA. 股票价格（Equity prices）\n股票价格受企业盈利、市场预期、货币政策、宏观经济周期等多重因素驱动，个人总收入上升只是间接利好，并非必然导致股价上涨。\nB. 新私人住房建筑许可（Building permits for new private housing units）\n建筑许可反映房地产开发与居民购房需求，其变动更多关联利率水平、房价预期、家庭财富、信贷政策，而非个人总收入的直接变动。\nC. 消费者分期付款债务与收入之比\n个人实际总收入上升时，消费者的债务偿还能力被增强，银行也更愿意向收入更高的消费者发放信贷，消费者会主动增加分期付款类负债（如信用卡消费、家电 / 汽车分期、消费贷）；债务的增长幅度通常会超过收入的增长幅度，最终导致该比值上升。\n总结：个人实际总收入上升是消费者扩大分期付款债务的直接驱动因素，而 A、B 指标受其他核心变量干扰，变动的确定性远低于 C。",
+      "tags": [],
+      "createdAt": 1715702433000,
+      "updatedAt": 1715702433000
+    },
+    {
+      "chapterId": "quant",
+      "title": "13. Which of the following indicators is...",
+      "question": "13. Which of the following indicators is most appropriate in predicting a turning point in the economy?",
+      "questionType": "choice",
+      "options": [
+        "A. The Industrial Production Index",
+        "B. The average bank prime lending rate",
+        "C. Average weekly hours, manufacturing"
+      ],
+      "myAnswer": "",
+      "correctAnswer": "C",
+      "officialExplanation": "",
+      "tags": [],
+      "createdAt": 1715702434000,
+      "updatedAt": 1715702434000
+    },
+    {
+      "chapterId": "quant",
+      "title": "1. The least likely goal of a government...",
+      "question": "1. The least likely goal of a government’s fiscal policy is to:",
+      "questionType": "choice",
+      "options": [
+        "A. redistribute income and wealth.",
+        "B. influence aggregate national output.",
+        "C. ensure the stability of the purchasing power of its currency."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "C",
+      "officialExplanation": "Ensuring stable purchasing power is a goal of monetary rather than fiscal policy. Fiscal policy involves the use of government spending and tax revenue to affect the overall level of aggregate demand in an economy and hence the level of economic activity.",
+      "tags": [],
+      "createdAt": 1715702435000,
+      "updatedAt": 1715702435000
+    },
+    {
+      "chapterId": "quant",
+      "title": "4. Which of the following statements is ...",
+      "question": "4. Which of the following statements is most accurate?",
+      "questionType": "choice",
+      "options": [
+        "A. An increase in the budget deficit is usually expansionary.",
+        "B. An increase in government spending is always expansionary.",
+        "C. The structural deficit is always larger than the deficit below full employment."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "A",
+      "officialExplanation": "A. 预算赤字的增加通常是扩张性的。（正确）\n预算赤字增加意味着政府的支出超过其收入（净注入经济）。在凯恩斯主义框架下，这通常会在短期内刺激总需求，从而对经济产生扩张性效应（提高产出和就业）。\nB. 政府支出的增加总是扩张性的。（错误）\n这个说法过于绝对。政府支出的扩张效应可能被其他因素抵消，例如：\n货币政策的对冲：如果央行同时紧缩货币（加息）以抑制通胀，可能会完全抵消财政刺激。\n挤出效应：政府借贷可能推高利率，挤占私人投资。\n李嘉图等价（理论观点）：理性的消费者预期未来增税，会提前增加储蓄以应对，从而抵消当前政府支出的刺激效果。\nC. 结构性赤字总是大于低于充分就业时的赤字。（错误）\n结构性赤字（Structural Deficit）：充分就业水平下的财政赤字（剔除经济周期的影响，反映政府长期财政政策的固有赤字）。\n充分就业水平以下的赤字（Deficit below full employment）：经济衰退 / 未充分就业时的实际赤字，=结构性赤字 + 周期性赤字（经济下行带来的被动赤字，如税收减少、转移支付增加，始终为正）。\n因此，在低于充分就业时，实际赤字大于结构性赤字。\n补充：当经济处于充分就业时，周期性赤字为零，结构性赤字等于实际赤字；当经济超过充分就业时，实际赤字 = 结构性赤字 - 周期性盈余（经济过热带来的被动盈余），此时实际赤字可能＜结构性赤字。",
+      "tags": [],
+      "createdAt": 1715702436000,
+      "updatedAt": 1715702436000
+    },
+    {
+      "chapterId": "quant",
+      "title": "2. A contractionary fiscal policy will a...",
+      "question": "2. A contractionary fiscal policy will always involve which of the following?",
+      "questionType": "choice",
+      "options": [
+        "A. Balanced budget",
+        "B. Reduction in government spending",
+        "C. Fall in the budget deficit or rise in the surplus"
+      ],
+      "myAnswer": "",
+      "correctAnswer": "C",
+      "officialExplanation": "紧缩性财政政策的本质是通过财政操作减少总需求，其直接结果体现为预算赤字下降或盈余上升，而非单一的支出 / 税收操作。\nB. Reduction in government spending（减少政府支出）—— 错误\n“减少政府支出” 是紧缩性财政政策的一种手段，该选项忽略了另一核心紧缩手段——增加税收。因此 “减少支出” 并非紧缩性政策必然涉及的内容。\nC. Fall in the budget deficit or rise in the surplus（预算赤字下降或盈余上升）—— 正确\n这是紧缩性财政政策必然产生的直接结果，也是其核心判定标准，逻辑源于财政收支的基本关系：\n紧缩性财政政策的两类操作，最终都会指向财政收支的 “收紧”：\n若政府减少支出→财政支出↓，在收入不变 / 变动更小的情况下，赤字会下降（或盈余扩大）；\n若政府增加税收→财政收入↑，在支出不变 / 变动更小的情况下，赤字会下降（或盈余扩大）；\n若政府同时减支 + 增税→收支双向收紧，赤字会大幅下降（或盈余大幅上升）。\n关键考点提炼\n财政政策的类型（扩张 / 紧缩），最终由财政收支的结果（赤字 / 盈余变化）判定，而非单一的操作手段；\n紧缩性财政政策的两种核心手段：减少政府支出 or 增加税收（二选一或同时进行）；\n扩张性财政政策的两种核心手段：增加政府支出 or 减少税收（二选一或同时进行）。\n规避“绝对化表述”（如单一手段），聚焦政策的本质结果。",
+      "tags": [],
+      "createdAt": 1715702437000,
+      "updatedAt": 1715702437000
+    },
+    {
+      "chapterId": "quant",
+      "title": "7. If a government increases its spendin...",
+      "question": "7. If a government increases its spending on domestically produced goods by an amount that is financed by an equivalent increase in taxes, the aggregate demand will most likely:",
+      "questionType": "choice",
+      "options": [],
+      "myAnswer": "",
+      "correctAnswer": "INCREASE",
+      "officialExplanation": "平衡预算乘数（Balanced Budget Multiplier）：\n当政府等额增加购买性支出和税收（ΔG=ΔT）时，总需求最终会小幅上升，核心原因是政府支出对总需求的直接拉动效应，大于税收对总需求的间接抑制效应，二者的效应无法完全抵消，这一结论由平衡预算乘数 = 1 推导而来（宏观经济学经典结论）。\n平衡预算乘数 = 1 是宏观经济学的经典结论，核心是指：政府等额增加购买性支出和总额税（ΔG=ΔT）时，总需求的变动量 ΔY 恰好等于政府支出 / 税收的变动额，即平衡预算乘数 K_b=ΔY/ΔG=ΔY/ΔT=1。\n注意：本题中政府支出是对国内商品的购买（如基建、政府采购），才会直接拉动 AD；若为转移支付（如失业救济），则无直接拉动效应，等额增税 + 增转移支付会让 AD不变。\n一句话总结：等额增支 + 增税的平衡预算政策，并非中性财政政策，而是弱扩张性财政政策，会推动总需求小幅上升，核心依据是平衡预算乘数恒大于 0（且经典场景下 = 1）。",
+      "tags": [],
+      "createdAt": 1715702438000,
+      "updatedAt": 1715702438000
+    },
+    {
+      "chapterId": "quant",
+      "title": "2. Which of the following does a central...",
+      "question": "2. Which of the following does a central bank seek to influence\ndirectly via the setting of its official interest rate?",
+      "questionType": "choice",
+      "options": [
+        "A. Import prices",
+        "B. Domestic inflation",
+        "C. Inflation expectations"
+      ],
+      "myAnswer": "",
+      "correctAnswer": "C",
+      "officialExplanation": "Monetary Transmission Mechanism",
+      "tags": [],
+      "createdAt": 1715702439000,
+      "updatedAt": 1715702439000
+    },
+    {
+      "chapterId": "quant",
+      "title": "4. A country that maintains a target exc...",
+      "question": "4. A country that maintains a target exchange rate is most likely to have which outcome when its inflation rate rises above the level of the inflation rate in the target country?",
+      "questionType": "choice",
+      "options": [
+        "A. Increase in short-term interest rates",
+        "B. Increase in the domestic money supply",
+        "C. Increase in its foreign currency reserves"
+      ],
+      "myAnswer": "",
+      "correctAnswer": "A",
+      "officialExplanation": "",
+      "tags": [],
+      "createdAt": 1715702440000,
+      "updatedAt": 1715702440000
+    },
+    {
+      "chapterId": "quant",
+      "title": "1. If an economy’s trend GDP growth rate...",
+      "question": "1. If an economy’s trend GDP growth rate is 3 percent and its central bank has a 2 percent inflation target, which policy rate is most consistent with an expansionary monetary policy?",
+      "questionType": "choice",
+      "options": [],
+      "myAnswer": "",
+      "correctAnswer": "<5",
+      "officialExplanation": "* expansionary monetary policy\n* The neutral rate of interest is 5 percent",
+      "tags": [],
+      "createdAt": 1715702441000,
+      "updatedAt": 1715702441000
+    },
+    {
+      "chapterId": "quant",
+      "title": "4. Given an independent central bank, mo...",
+      "question": "4. Given an independent central bank, monetary policy actions are more likely than fiscal policy actions to be:",
+      "questionType": "choice",
+      "options": [
+        "A. implementable quickly.",
+        "B. effective when a specific group is targeted.",
+        "C. effective when combating a deflationary economy."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "A",
+      "officialExplanation": "选项 A：可快速实施→ 正确\n独立央行主导的货币政策，与财政政策相比，最核心的优势是决策和执行的时效性极强（可快速落地）；而财政政策受立法、审批等流程制约，落地周期长。\n选项 B：针对特定群体时更有效→ 错误\n财政政策是精准靶向特定群体的政策，货币政策则是 “普惠式 / 全局性” 政策，无法精准针对特定群体。因此针对特定群体时，财政政策的有效性远高于货币政策。\n选项 C：对抗通缩经济时更有效→ 错误\n通缩的核心症结是实体经济总需求持续萎缩（居民不愿消费、企业不愿投资），而货币政策的传导依赖金融体系→实体经济的链路，在通缩 + 流动性陷阱下，这一链路会彻底断裂。即便央行将利率降至 0、推出量化宽松，释放的流动性也会停留在金融体系（银行不敢放贷、企业 / 居民持币观望），无法转化为实体经济的消费和投资，货币政策对通缩的调控效果极弱甚至失效；\n财政政策是直接拉动总需求的政策，可绕开金融体系直接作用于实体经济：比如政府增加基建支出，会直接带动建筑、钢铁、建材等行业的需求，创造就业岗位；向居民发放消费券，会直接刺激居民的即期消费，能更直接地打破通缩螺旋。\n故对抗通缩的有效组合是「财政政策为主、货币政策为辅」—— 财政政策直接创造需求，货币政策为财政政策提供低利率、充足流动性的环境，而非货币政策单独发挥核心作用。",
+      "tags": [],
+      "createdAt": 1715702442000,
+      "updatedAt": 1715702442000
+    },
+    {
+      "chapterId": "quant",
+      "title": "13. As a monetary policy tool, quantitat...",
+      "question": "13. As a monetary policy tool, quantitative easing (QE) will most likely help revive an ailing economy in which of the following environments?",
+      "questionType": "choice",
+      "options": [
+        "A. Deflationary trap",
+        "B. Declining bank reserves and economic activity",
+        "C. Liquidity trap"
+      ],
+      "myAnswer": "",
+      "correctAnswer": "C",
+      "officialExplanation": "量化宽松（QE）是中央银行在常规货币政策工具（尤其是政策利率）已接近或达到下限（如零利率下限）时，采取的非常规货币政策。其核心是通过大规模购买资产（如国债、机构债等），直接向金融体系注入大量基础货币，以降低长期利率、提升资产价格、鼓励借贷和支出。\nQE的设计初衷和最主要的适用场景就是 “流动性陷阱”，即当传统利率工具失效时，通过直接扩大央行资产负债表来提供额外货币刺激。这也是在2008年全球金融危机后以及2020年新冠疫情期间，主要发达经济体央行广泛使用QE的根本原因。\n结论：当传统货币政策（尤其是降息）失效时，QE 最有效。",
+      "tags": [],
+      "createdAt": 1715702443000,
+      "updatedAt": 1715702443000
+    },
+    {
+      "chapterId": "quant",
+      "title": "17. Given stable inflation, a tight fisc...",
+      "question": "17. Given stable inflation, a tight fiscal policy accompanied by easy monetary policy will most likely:",
+      "questionType": "choice",
+      "options": [
+        "A. decrease the private sector share of GDP.",
+        "B. have no impact on the private sector share of GDP.",
+        "C. increase the private sector share of GDP."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "C",
+      "officialExplanation": "紧缩性财政政策：政府减少支出（G↓）和/或增加税收（T↑）。\n直接效应：公共部门在 GDP 中的占比下降，因为政府支出（G）是 GDP 的直接组成部分（GDP = C + I + G + NX）。\n对私营部门的影响：增税（T↑）会减少居民可支配收入，可能抑制消费（C）；但政府支出减少也可能降低对私人投资的挤出。\n宽松性货币政策：央行降低利率、增加货币供给。\n直接效应：刺激私人投资（I）和消费（C），因为借贷成本下降、资产价格上升、财富效应等。\n结论：通胀稳定下，紧财政（G↓）+ 宽货币（C+I↑）→ 整体GDP稳定，政府部门占比降、私人部门占比升",
+      "tags": [],
+      "createdAt": 1715702444000,
+      "updatedAt": 1715702444000
+    },
+    {
+      "chapterId": "quant",
+      "title": "7. Which of the following international ...",
+      "question": "7. Which of the following international trade bodies was the only multilateral body governing international trade from 1948 to 1995?",
+      "questionType": "choice",
+      "options": [
+        "A. World Trade Organization (WTO)",
+        "B. International Trade Organization (ITO)",
+        "C. General Agreement on Tariffs and Trade (GATT)"
+      ],
+      "myAnswer": "",
+      "correctAnswer": "C",
+      "officialExplanation": "WTO1995 年才正式成立（取代 GATT），而 ITO 则因未能达成最终协议从未正式成立。\n【知识点】\n国际货币基金组织（IMF）\n世界银行\n（WB）\n世界贸易组织\n（WTO）\n核心定位\n全球货币金融稳定器、各国的 “国际最后贷款人”\n全球经济发展助推器、发展中国家的 “长期融资机构”\n全球国际贸易规则制定者、贸易争端 “仲裁者”\n成立时间 / 背景\n1944 年布雷顿森林会议成立，1947 年正式运行；为解决二战后国际货币体系混乱、汇率波动问题\n1944 年布雷顿森林会议成立（含 IBRD+IDA 两大核心机构）；为解决二战后各国重建和发展的资金短缺\n1995 年 1 月 1 日正式成立，取代 1948 年的 GATT；为实现全球贸易制度化、规则化，解决 GATT 的局限性\n核心职能",
+      "tags": [],
+      "createdAt": 1715702445000,
+      "updatedAt": 1715702445000
+    },
+    {
+      "chapterId": "quant",
+      "title": "1. Match the potential velocity of a geo...",
+      "question": "1. Match the potential velocity of a geopolitical risk with the most likely investor reaction among those listed in the following table:",
+      "questionType": "choice",
+      "options": [],
+      "myAnswer": "",
+      "correctAnswer": "1-C,",
+      "officialExplanation": "低速度：风险长期存在，缓慢演变（如贸易摩擦、长期制裁）→ 调整资产配置\n低速度风险允许投资者有较长时间进行分析和规划。\n投资者会进行结构性、战略性的资产配置调整，例如增加防御性板块、调整国家/地区敞口、长期对冲等。\n中等速度：风险在数月或数季度内逐步升级（如地区紧张局势逐步加剧）→调整特定行业投资\n风险逐步明朗化，影响范围开始清晰。\n投资者会进行战术性调整，针对最直接受影响或受益的特定行业进行调仓（如国防、能源、供应链相关行业）。\n高速度：风险突然爆发、迅速升级（如军事冲突突然爆发）→ 避险\n风险突然爆发，市场恐慌，不确定性极高。\n投资者来不及进行细致分析，第一反应是卖出风险资产，涌入避险资产（如国债、黄金、美元等），即“避险”行为。",
+      "tags": [],
+      "createdAt": 1715702446000,
+      "updatedAt": 1715702446000
+    },
+    {
+      "chapterId": "quant",
+      "title": "9. An applicable conclusion drawn from t...",
+      "question": "9. An applicable conclusion drawn from the Geopolitical Risk Index (GPR) is that:",
+      "questionType": "choice",
+      "options": [
+        "A. high geopolitical risk results in tangible macroeconomic effects.",
+        "B. recurring geopolitical risk events lead to reduced corporate investment.",
+        "C. the adverse impact of actual events is greater over time than that of the threat of such events."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "B",
+      "officialExplanation": "反复出现的地缘政治风险事件会形成持续的不确定性预期，企业因无法预判未来经营环境（如贸易壁垒、供应链中断、政策变动），会主动推迟或缩减投资计划。\n只有当高 GPR 伴随「风险全球化、影响核心领域（能源 / 贸易 / 金融）、持续时间长」时，才会产生显著的宏观经济影响，单纯的高 GPR 指数并不必然带来显著的宏观经济效果。\n「事件威胁（预期性风险）」的不利影响远大于「实际事件发生（已实现风险）」，且随时间推移，威胁的影响会持续，而实际事件的影响会快速消退，核心原因是「未知的恐惧远大于已知的冲击」。",
+      "tags": [],
+      "createdAt": 1715702447000,
+      "updatedAt": 1715702447000
+    },
+    {
+      "chapterId": "quant",
+      "title": "10. The basic geopolitical risk type mos...",
+      "question": "10. The basic geopolitical risk type most likely in comparison to have the smallest degree of uncertainty is:",
+      "questionType": "choice",
+      "options": [
+        "A. exogenous risk.",
+        "B. event risk.",
+        "C. thematic risk."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "B",
+      "officialExplanation": "事件风险：指具体、突发、离散的地缘政治事件，如恐怖袭击、军事冲突爆发、政变等。\n特点：发生时间明确，影响范围相对可界定（尽管后果可能蔓延）。\n不确定性：虽然事件本身可能突然发生，但一旦发生，其事实、性质和直接受影响方较为清晰。因此，与其他类型相比，其不确定性相对较低（属于“已知的未知”或甚至“已知的已知”）。\n外生风险：指由外部冲击引发的风险，如自然灾害、全球大宗商品价格飙升、全球金融危机等。\n特点：来源在系统外部，难以预测时机和强度。\n不确定性：通常较高，因为往往涉及复杂的全球联动和不可预见的触发因素。\n主题风险：指长期、结构性、演变性的宏观地缘政治趋势，如气候变化、人口结构变化、技术竞争（如芯片战争）、意识形态冲突等。\n特点：时间跨度长，影响广泛而渐进，多因素交织。\n不确定性：最高，因为演变路径、临界点、最终结果都难以预测，属于“未知的未知”。",
+      "tags": [],
+      "createdAt": 1715702448000,
+      "updatedAt": 1715702448000
+    },
+    {
+      "chapterId": "quant",
+      "title": "7. If Brazil and South Africa have free ...",
+      "question": "7. If Brazil and South Africa have free trade with each other, a common trade policy against all other countries, but no free movement of factors of production between them, then Brazil and South Africa are part of a(n):",
+      "questionType": "choice",
+      "options": [
+        "A. customs union.",
+        "B. common market.",
+        "C. FTA."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "A",
+      "officialExplanation": "FTA < customs union (common trade policy against all other countries) < common market (free movement of factors of production) < economic union (common economic institutions and coordination of economic policies among members) < monetary union",
+      "tags": [],
+      "createdAt": 1715702449000,
+      "updatedAt": 1715702449000
+    },
+    {
+      "chapterId": "quant",
+      "title": "6. Based on the adviser’s scenario, the ...",
+      "question": "6. Based on the adviser’s scenario, the change in the relative purchasing power of the client’s Australian-dollar-denominated income is closest to:",
+      "questionType": "choice",
+      "options": [
+        "A. –8 percent.",
+        "B. +8 percent.",
+        "C. +12 percent."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "1.A；2.B；5.B；6.A",
+      "officialExplanation": "",
+      "tags": [],
+      "createdAt": 1715702450000,
+      "updatedAt": 1715702450000
+    },
+    {
+      "chapterId": "quant",
+      "title": "2. If the bid/offer quote from the deale...",
+      "question": "2. If the bid/offer quote from the dealer was 18.8580–18.8600 MXN/USD, then the bid/offer quote in USD/MXN terms would be closest to:",
+      "questionType": "choice",
+      "options": [
+        "A. 0.05302–0.05303.",
+        "B. 0.05303–0.05302.",
+        "C. 0.053025–0.053025."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "1.B；2.",
+      "officialExplanation": "",
+      "tags": [],
+      "createdAt": 1715702451000,
+      "updatedAt": 1715702451000
+    },
+    {
+      "chapterId": "quant",
+      "title": "1. A country with a trade deficit will m...",
+      "question": "1. A country with a trade deficit will most likely:",
+      "questionType": "choice",
+      "options": [
+        "A. have an offsetting capital account surplus.",
+        "B. save enough to fund its investment spending.",
+        "C. buy assets from foreigners to fund the imbalance."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "A",
+      "officialExplanation": "A trade deficit must be exactly matched by an offsetting capital account surplus to fund the deficit. A capital account surplus reflects borrowing from foreigners (an increase in domestic liabilities) and/or selling assets to foreigners (a decrease in domestic assets).",
+      "tags": [],
+      "createdAt": 1715702452000,
+      "updatedAt": 1715702452000
+    },
+    {
+      "chapterId": "quant",
+      "title": "1. What will be the effect on a direct e...",
+      "question": "1. What will be the effect on a direct exchange rate quote if the domestic currency appreciates?",
+      "questionType": "choice",
+      "options": [
+        "A. Increase",
+        "B. Decrease",
+        "C. No change"
+      ],
+      "myAnswer": "",
+      "correctAnswer": "B",
+      "officialExplanation": "In the case of a direct exchange rate, the domestic currency is the price currency (the numerator分子) and the foreign currency is the base currency (the denominator分母).",
+      "tags": [],
+      "createdAt": 1715702453000,
+      "updatedAt": 1715702453000
+    },
+    {
+      "chapterId": "quant",
+      "title": "7. In the classification of currency reg...",
+      "question": "7. In the classification of currency regimes, a currency board system (CBS) most likely differs from a fixed-rate parity system in that:",
+      "questionType": "choice",
+      "options": [
+        "A. a CBS has a discretionary target level of foreign exchange reserves.",
+        "B. a CBS can peg to a basket of currencies but a fixed-rate system cannot.",
+        "C. the monetary authority within a CBS does not act as a traditional lender of last resort."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "C",
+      "officialExplanation": "In a CBS, the monetary authority has an obligation to maintain 100% foreign currency reserves against the monetary base. It therefore cannot lend to troubled financial institutions and cannot serve as a lender of last resort.",
+      "tags": [],
+      "createdAt": 1715702454000,
+      "updatedAt": 1715702454000
+    },
+    {
+      "chapterId": "quant",
+      "title": "1. According to the exchange rate inform...",
+      "question": "1. According to the exchange rate information, the treasurer could hedge the FX risk by:",
+      "questionType": "choice",
+      "options": [
+        "A. buying euro (selling British pounds) at a forward rate of 0.87380.",
+        "B. buying euro (selling British pounds) at a forward rate of 0.87506.",
+        "C. selling euro (buying British pounds) at a forward rate of 0.87506."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "B",
+      "officialExplanation": "对冲动机：公司未来有英镑收入，要换欧元 → 担心英镑贬值\n对冲本质：利率平价公式（无套利原则）通过构造一个无风险组合来锁定未来汇率，从而使远期合约存在确定的价格。——用今天的市场工具把未来的汇率固定下来（追求确定性）\n对冲操作：卖出英镑远期、买入欧元远期",
+      "tags": [],
+      "createdAt": 1715702455000,
+      "updatedAt": 1715702455000
+    },
+    {
+      "chapterId": "quant",
+      "title": "6. A forward premium indicates:",
+      "question": "6. A forward premium indicates:",
+      "questionType": "choice",
+      "options": [
+        "A. an expected increase in demand for the base currency.",
+        "B. the interest rate is higher in the base currency than in the price currency.",
+        "C. the interest rate is higher in the price currency than in the base currency."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "C",
+      "officialExplanation": "",
+      "tags": [],
+      "createdAt": 1715702456000,
+      "updatedAt": 1715702456000
+    },
+    {
+      "chapterId": "quant",
+      "title": "7. The JPY/AUD spot exchange rate is 82....",
+      "question": "7. The JPY/AUD spot exchange rate is 82.42, the Japanese yen interest rate is 0.15 percent, and the Australian dollar interest rate is 4.95 percent. If the interest rates are quoted on the basis of a 360-day year, the 90-day forward points in JPY/AUD would be closest to:",
+      "questionType": "choice",
+      "options": [],
+      "myAnswer": "",
+      "correctAnswer": "–97.7",
+      "officialExplanation": "通用公式：远期点数 = (F − S) × 10000\n当且仅当汇率报价为小数点后 2 位（特别是日元相关货币对）时，远期点数 = (F − S) ×100",
+      "tags": [],
+      "createdAt": 1715702457000,
+      "updatedAt": 1715702457000
+    },
+    {
+      "chapterId": "quant",
+      "title": "16. An investor examines the following r...",
+      "question": "16. An investor examines the following rate quotes for the Brazilian real (BRL) and the Australian dollar (AUD) and shorts BRL500,000.\nSpot rate BRL/AUD: 2.1128\nBRL 1-year interest rate: 4.1%\nForward rate BRL/AUD: 2.1388\nAUD 1-year interest rate: 3.1%\nThe risk-free arbitrage profit that is available is closest to:",
+      "questionType": "choice",
+      "options": [],
+      "myAnswer": "",
+      "correctAnswer": "B",
+      "officialExplanation": "关键：shorts BRL500,000 —— 做空 BRL 本金\n前提：根据利率平价，远期被高估，存在套利机会。套利步骤如下：\n做空 BRL：借入 500,000 BRL，一年后归还本息500,000×(1+0.041)\n即期兑换：将借入的BRL按即期汇率兑换，得236,652.78 AUD [500,000/2.1128]\n投资 AUD：将 AUD 资金存入银行，一年后获得本息243,988.92 AUD [236,652.78×(1+0.031)]\n远期锁定：签订一份远期合约，约定一年后以 F=2.1388 的汇率将 AUD 本息换回 BRL\n套利：一年后，将投资所得AUD按远期汇率换回521,843.50 BRL (243,988.92×2.1388)，归还 BRL贷款本息后得套利利润\n3 Corporate Issuers",
+      "tags": [],
+      "createdAt": 1715702458000,
+      "updatedAt": 1715702458000
+    },
+    {
+      "chapterId": "quant",
+      "title": "5. Which of the following board structur...",
+      "question": "5. Which of the following board structures would most limit shareholders’ ability to effect a major change in the management of a firm?",
+      "questionType": "choice",
+      "options": [
+        "A. Majority inside, staggered",
+        "B. Majority independent, staggered",
+        "C. Majority independent, non-staggered"
+      ],
+      "myAnswer": "",
+      "correctAnswer": "A",
+      "officialExplanation": "内部董事占多数 (Majority inside)\n内部董事通常由公司现任高管或与管理层关系密切的人员担任。\n他们在决策时更倾向于维护现有管理层的利益，而非独立代表股东。\n这使得股东很难通过董事会来推动管理层的重大变革。\n交错董事会 (Staggered board)\n在交错董事会制度下，董事的任期是错开的，每年只有一小部分董事席位进行改选。\n这意味着即使股东在一次年度股东大会上获得了多数投票权，也无法一次性更换全部董事，从而大大延缓了变革的速度，限制了股东的影响力。",
+      "tags": [],
+      "createdAt": 1715702459000,
+      "updatedAt": 1715702459000
+    },
+    {
+      "chapterId": "quant",
+      "title": "2. An investment analyst would likely be...",
+      "question": "2. An investment analyst would likely be most concerned about an executive compensation plan that:",
+      "questionType": "choice",
+      "options": [
+        "A. varies each year.",
+        "B. is consistent with the compensation plans of a company’s competitors.",
+        "C. is cash-based only, without an equity component"
+      ],
+      "myAnswer": "",
+      "correctAnswer": "B",
+      "officialExplanation": "If an executive remuneration plan offers cash only, the interests of management and investors (and other stakeholders) may be misaligned. An equity-based compensation plan is commonly used to align management interests with those of shareholders.\nA is incorrect, because a plan that varies over time would typically be of less concern to an analyst compared with one that did not change.",
+      "tags": [],
+      "createdAt": 1715702460000,
+      "updatedAt": 1715702460000
+    },
+    {
+      "chapterId": "quant",
+      "title": "3. Benefits of effective corporate gover...",
+      "question": "3. Benefits of effective corporate governance include all of the following except:",
+      "questionType": "choice",
+      "options": [
+        "A. avoidance of fraud.",
+        "B. higher investor confidence.",
+        "C. reduced cost of equity"
+      ],
+      "myAnswer": "",
+      "correctAnswer": "A",
+      "officialExplanation": "Effective corporate governance allows for the mitigation, not the avoidance, of risk factors such as fraud, or at least their identification and control at early stages.",
+      "tags": [],
+      "createdAt": 1715702461000,
+      "updatedAt": 1715702461000
+    },
+    {
+      "chapterId": "quant",
+      "title": "6. The potential for conflict between de...",
+      "question": "6. The potential for conflict between debtholders and shareholders is:",
+      "questionType": "choice",
+      "options": [
+        "A. lower for long-term debt than for short-term debt.",
+        "B. the same for long-term debt and short-term debt.",
+        "C. higher for long-term debt than for short-term debt."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "A",
+      "officialExplanation": "股东 - 债权人冲突随债务期限延长而加剧：\n· 长期债务 (Long-term debt) → 留给管理层操作时间长。\n公司有机会通过高风险投资、资产替换（asset substitution）等方式侵占债权人利益。\n风险暴露期长，债权人难以及时约束。\n· 短期债务 (Short-term debt)\n到期快，资金滚动频繁，债权人可通过rollover（展期 / 再融资）随时监控风险。\n管理层短期挪用资金的空间小。\n*Rollover = 债务到期 → 借新债还旧债\nKobe Steel Ltd. is a major Japanese steel manufacturer formed in 1905 that supplies global manufacturers of cars, planes, and trains. The company issued a report in March 2018 apologizing for falsifying data on the strength and durability of its aluminum, copper, steel products, and iron ore powder. Following the scandal, its stock sank to a five-year low and its cost of debt jumped to record levels.\nAn Independent Investigation Committee (IIC) investigated the misconduct and authored the report, which concluded that the misconduct resulted from (1) a management style that overemphasized profitability amid inadequate corporate governance, (2) the imbalanced operation of plants that resulted in reduced awareness of quality compliance among employees, and (3) insufficient quality control procedures that allowed the misconduct to take place. The report also emphasized that the company had “a culture that prioritized winning purchase orders and meeting delivery deadlines over ensuring quality.”\nThe company committed to implementing various measures to prevent a recurrence of the misconduct. Regarding governance, measures included the following:\nAppointing an independent chairman of the board of directors\nHaving at least one-third of the board of directors be independent\nCreating a nominating and compensation committee, consisting of a majority of independent directors, to serve as a voluntary advisory body to the board of directors\nCreating an independent quality supervision committee consisting of external experts\nCreating an audit and supervisory committee consisting of five members: two internal directors and three independent directors with backgrounds in legal, financial, and industrial fields",
+      "tags": [],
+      "createdAt": 1715702462000,
+      "updatedAt": 1715702462000
+    },
+    {
+      "chapterId": "quant",
+      "title": "10. Which of the following is considered...",
+      "question": "10. Which of the following is considered a best practice that would strengthen the measures discussed to prevent a recurrence of the misconduct?",
+      "questionType": "choice",
+      "options": [
+        "A. A shareholder rights plan",
+        "B. A stock-based compensation plan",
+        "C. An audit committee composed solely of independent board members"
+      ],
+      "myAnswer": "",
+      "correctAnswer": "C",
+      "officialExplanation": "A stock-based compensation plan is used to align the interests of management with those of shareholders, though it might further incentivize risk-taking and misconduct, which is the issue in this case.",
+      "tags": [],
+      "createdAt": 1715702463000,
+      "updatedAt": 1715702463000
+    },
+    {
+      "chapterId": "quant",
+      "title": "2. Which of the following actions will m...",
+      "question": "2. Which of the following actions will most likely increase an issuer’s liquidity?",
+      "questionType": "choice",
+      "options": [
+        "A. Forgoing a supplier’s discount for prompt payments",
+        "B. Relaxing terms for customers by lengthening the payment period",
+        "C. Purchasing short-term marketable securities with cash on hand"
+      ],
+      "myAnswer": "",
+      "correctAnswer": "A",
+      "officialExplanation": "",
+      "tags": [],
+      "createdAt": 1715702464000,
+      "updatedAt": 1715702464000
+    },
+    {
+      "chapterId": "quant",
+      "title": "3. The Plough Corporation reports the fo...",
+      "question": "3. The Plough Corporation reports the following items on its two most recent balance sheets (in millions)\nBased on the cash ratio, the company has:",
+      "questionType": "choice",
+      "options": [
+        "A. become less liquid.",
+        "B. become more liquid.",
+        "C. not changed regarding liquidity."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "B",
+      "officialExplanation": "",
+      "tags": [],
+      "createdAt": 1715702465000,
+      "updatedAt": 1715702465000
+    },
+    {
+      "chapterId": "quant",
+      "title": "5. Which of the following actions provid...",
+      "question": "5. Which of the following actions provides a secondary source of liquidity?",
+      "questionType": "choice",
+      "options": [
+        "A. Issuance of equity securities",
+        "B. Collecting accounts receivable",
+        "C. Taking advantage of a supplier’s financing and paying on the net day, day 40"
+      ],
+      "myAnswer": "",
+      "correctAnswer": "A",
+      "officialExplanation": "",
+      "tags": [],
+      "createdAt": 1715702466000,
+      "updatedAt": 1715702466000
+    },
+    {
+      "chapterId": "quant",
+      "title": "6. Classify each of the following action...",
+      "question": "6. Classify each of the following actions as either a conservative or an aggressive approach to working capital management:\nMinimize inventory levels\nGreater reliance on long-term debt and equity financing\nLower level of short-term assets\nGreater reliance on short-term debt",
+      "questionType": "choice",
+      "options": [],
+      "myAnswer": "",
+      "correctAnswer": "A",
+      "officialExplanation": "",
+      "tags": [],
+      "createdAt": 1715702467000,
+      "updatedAt": 1715702467000
+    },
+    {
+      "chapterId": "quant",
+      "title": "6. Which of the following is a pull on a...",
+      "question": "6. Which of the following is a pull on a company's liquidity?",
+      "questionType": "choice",
+      "options": [
+        "A. Obsolete inventory",
+        "B. Reduced credit limitsC. Uncollected receivables"
+      ],
+      "myAnswer": "",
+      "correctAnswer": "B",
+      "officialExplanation": "Reduced credit limits. If a company has a history of late payments, suppliers may cut the firm’s credit outstanding at any \"me.",
+      "tags": [],
+      "createdAt": 1715702468000,
+      "updatedAt": 1715702468000
+    },
+    {
+      "chapterId": "quant",
+      "title": "16.0\nProject Y\n−13,250\n200\n500\n7,000\n15,...",
+      "question": "16.0\nProject Y\n−13,250\n200\n500\n7,000\n15,000\n---\n---\nThe appropriate hurdle rate to use in evaluating the projects is 15.0%. Which of the following statements is most accurate? The company should accept:",
+      "questionType": "choice",
+      "options": [],
+      "myAnswer": "",
+      "correctAnswer": "PROJECT",
+      "officialExplanation": "* mutually exclusive",
+      "tags": [],
+      "createdAt": 1715702469000,
+      "updatedAt": 1715702469000
+    },
+    {
+      "chapterId": "quant",
+      "title": "3. A project has the following annual ca...",
+      "question": "3. A project has the following annual cash flows:\nYear 0\nYear 1\nYear 2\nYear 3\nYear 4\n‒$4,662,005\n$22,610,723\n‒$41,072,261\n$33,116,550\n‒$10,000,000\nWhich of the following discount rates most likely produces the highest net present value (NPV)?",
+      "questionType": "choice",
+      "options": [
+        "A. 8%",
+        "B. 10%",
+        "C. 15%"
+      ],
+      "myAnswer": "",
+      "correctAnswer": "C",
+      "officialExplanation": "*仔细：为非传统现金流（Year 2为负）",
+      "tags": [],
+      "createdAt": 1715702470000,
+      "updatedAt": 1715702470000
+    },
+    {
+      "chapterId": "quant",
+      "title": "4. A firm is considering a project that ...",
+      "question": "4. A firm is considering a project that would require an initial investment of THB270 million (Thai baht). The project will help increase the firm’s after-tax net cash flows by THB30 million per year in perpetuity, and it is found to have a negative NPV of THB20 million. The IRR (%) of the project is closest to:",
+      "questionType": "choice",
+      "options": [],
+      "myAnswer": "",
+      "correctAnswer": "11.1%.",
+      "officialExplanation": "永续项目IRR = 每年现金流 ÷ 初始投资 = 30 / 270",
+      "tags": [],
+      "createdAt": 1715702471000,
+      "updatedAt": 1715702471000
+    },
+    {
+      "chapterId": "quant",
+      "title": "7. When choosing between mutually exclus...",
+      "question": "7. When choosing between mutually exclusive projects, an analyst should:",
+      "questionType": "choice",
+      "options": [
+        "A. accept the project with the highest IRR.",
+        "B. use the opportunity cost of funds as the discount rate.",
+        "C. accept the projects for which the IRR is greater than the opportunity cost of funds."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "B",
+      "officialExplanation": "B选项即NPV法，互斥项目优先级NPV > IRR\nC选项适用于独立项目，即只要 IRR 大于资金成本，项目就可行",
+      "tags": [],
+      "createdAt": 1715702472000,
+      "updatedAt": 1715702472000
+    },
+    {
+      "chapterId": "quant",
+      "title": "13. Subsequent to making a capital inves...",
+      "question": "13. Subsequent to making a capital investment, a company reacts to poor financial results from the project by abandoning it. This action alone best exemplifies the exercise of a:",
+      "questionType": "choice",
+      "options": [
+        "A. sizing option.",
+        "B. timing option.",
+        "C. flexibility option."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "A",
+      "officialExplanation": "Larissa Soroka, an analyst at ABC company, has been asked to prepare cash flow forecasts for two mutually exclusive investment projects related to new products. ABC’s management asks Soroka to include the cost of market research that was recently completed as well as the potential loss of revenue from existing products that could occur if either project is undertaken. Soroka presents the forecast and is asked to calculate IRR and NPV for both projects. Investors in ABC have a required rate of return of 8%.\nTime\n0\n1\n2\n3\n4\nProject A\n(18.5)\n4.5\n6.0\n6.0\n5.5\nProject B\n(33.5)\n(2.5)\n(1.0)",
+      "tags": [],
+      "createdAt": 1715702473000,
+      "updatedAt": 1715702473000
+    },
+    {
+      "chapterId": "quant",
+      "title": "14. When preparing the cash-flow forecas...",
+      "question": "14. When preparing the cash-flow forecasts for both projects, Soroka should include:",
+      "questionType": "choice",
+      "options": [
+        "A. only the cost of the market research.",
+        "B. only the loss of revenue from existing products.",
+        "C. both the market research cost and the loss of revenue from existing products."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "B",
+      "officialExplanation": "Capital allocation analysis should include only incremental cash flows associated with a new investment. The loss of revenue from existing products is an incremental negative effect that should be included in the analysis.\nThe market research costs in this case are a sunk cost because the research has already been completed and therefore does not affect cash-flow estimates, no matter whether ABC undertakes either of these projects or neither of them.",
+      "tags": [],
+      "createdAt": 1715702474000,
+      "updatedAt": 1715702474000
+    },
+    {
+      "chapterId": "quant",
+      "title": "16. The most likely impact from the cash...",
+      "question": "16. The most likely impact from the cash-flow timing considered by Soroka is that:",
+      "questionType": "choice",
+      "options": [
+        "A. both IRR and NPV would decrease.",
+        "B. both IRR and NPV stay unchanged.",
+        "C. only IRR would decrease but NPV would increase."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "A",
+      "officialExplanation": "早收到现值大，后收到现值小\nIRR：NPV=0时的折现率，t变大则r变小",
+      "tags": [],
+      "createdAt": 1715702475000,
+      "updatedAt": 1715702475000
+    },
+    {
+      "chapterId": "quant",
+      "title": "18. Considering ABC management’s ROIC-ba...",
+      "question": "18. Considering ABC management’s ROIC-based investment criterion and the IRR and NPV of both projects, Soroka should recommend to:",
+      "questionType": "choice",
+      "options": [
+        "A. reject both projects A and B.",
+        "B. invest only in Project B because it has a higher NPV.",
+        "C. invest only in Project A because has positive cash flow during all four years."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "A",
+      "officialExplanation": "仔细：ROIC objective of at least 9.2%",
+      "tags": [],
+      "createdAt": 1715702476000,
+      "updatedAt": 1715702476000
+    },
+    {
+      "chapterId": "quant",
+      "title": "2. When calculating IRR, the interim cas...",
+      "question": "2. When calculating IRR, the interim cash flows are assumed to be reinvested and earn a rate of return rate that is:",
+      "questionType": "choice",
+      "options": [
+        "A. lower than IRR.",
+        "B. the same as IRR.",
+        "C. higher than IRR."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "B",
+      "officialExplanation": "",
+      "tags": [],
+      "createdAt": 1715702477000,
+      "updatedAt": 1715702477000
+    },
+    {
+      "chapterId": "quant",
+      "title": "2. Which step in the capital allocation ...",
+      "question": "2. Which step in the capital allocation process most likely involves the calculation of NPV and IRR?",
+      "questionType": "choice",
+      "options": [
+        "A. Idea generation",
+        "B. Investment analysis",
+        "C. Planning and prioritization"
+      ],
+      "myAnswer": "",
+      "correctAnswer": "B",
+      "officialExplanation": "The investment analysis step involves forecasting the amount, timing, duration, and volatility of an investment’s expected cash flows and subsequently using NPV and IRR to determine whether the investment will be a wise use of capital.\nC is incorrect because during the planning and prioritization step, management selects and prioritizes profitable investment opportunities that, when considered together, are the most value enhancing on a risk-adjusted return basis. This step occurs after NPV and IRR analysis.",
+      "tags": [],
+      "createdAt": 1715702478000,
+      "updatedAt": 1715702478000
+    },
+    {
+      "chapterId": "quant",
+      "title": "1. Which of the following statements abo...",
+      "question": "1. Which of the following statements about real options is true?",
+      "questionType": "choice",
+      "options": [
+        "A. Using option pricing models estimates an option’s value with the highest accuracy.",
+        "B. Real options allow companies to abandon an investment project if its profitability is poor.",
+        "C. Real options would allow a refinery to hedge future prices of crude oil needed for production."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "B",
+      "officialExplanation": "real option是对项目本身做决策（扩产、暂停、放弃、延迟），不是金融对冲。",
+      "tags": [],
+      "createdAt": 1715702479000,
+      "updatedAt": 1715702479000
+    },
+    {
+      "chapterId": "quant",
+      "title": "5. The amount and type of financing need...",
+      "question": "5. The amount and type of financing needed or the weights in the WACC calculation depend on the issuer’s:",
+      "questionType": "choice",
+      "options": [
+        "A. business model.",
+        "B. financial leverage.",
+        "C. proportion of fixed cost to total costs."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "A",
+      "officialExplanation": "商业模式决定资产结构：不同的商业模式对应不同的资产形态（轻资产 / 重资产、有形 / 无形）。\n资产结构决定融资需求：重资产行业（如公用事业、制造业）需要巨额资金购买设备厂房，且有大量有形资产可抵押，因此融资规模大，且偏好债务融资；轻资产行业（如软件、咨询）需要的资金少，且缺乏抵押物，因此融资规模小，且偏好股权融资。\n结论：商业模式是底层逻辑，它决定了公司需要多少钱（amount）、该借什么钱（type），进而决定了 WACC 中的资本结构权重。",
+      "tags": [],
+      "createdAt": 1715702480000,
+      "updatedAt": 1715702480000
+    },
+    {
+      "chapterId": "quant",
+      "title": "3. In calculating WACC for Company X, th...",
+      "question": "3. In calculating WACC for Company X, the weight for debt using book values for the balance sheet components is likely to be ________________ than the weight for debt using market values for the balance sheet components. (lower/the same/higher)",
+      "questionType": "choice",
+      "options": [],
+      "myAnswer": "",
+      "correctAnswer": "HIGHER.",
+      "officialExplanation": "Key: book values vs market values\nThe book value weights are computed as follows:\nWd = $400,000/$1,000,000 = 0.40.\nWe = $600,000/$1,000,000 = 0.60.\nThe market value of equity is equal to $20 × 40,000 shares = $800,000.\nThe market value weights are computed as follows:\nWd = $400,000/$1,200,000 = 0.33.\nWe = $800,000/$1,200,000 = 0.67.",
+      "tags": [],
+      "createdAt": 1715702481000,
+      "updatedAt": 1715702481000
+    },
+    {
+      "chapterId": "quant",
+      "title": "4. Which firm might investors require lo...",
+      "question": "4. Which firm might investors require lower rates of return for on debt and equity? Explain your answer.",
+      "questionType": "choice",
+      "options": [],
+      "myAnswer": "",
+      "correctAnswer": "FIRM",
+      "officialExplanation": "核心原因：风险更低",
+      "tags": [],
+      "createdAt": 1715702482000,
+      "updatedAt": 1715702482000
+    },
+    {
+      "chapterId": "quant",
+      "title": "4. Given the forecast of deteriorating b...",
+      "question": "4. Given the forecast of deteriorating business conditions, which company will experience a greater change in cash flow and profitability?",
+      "questionType": "choice",
+      "options": [],
+      "myAnswer": "",
+      "correctAnswer": "OLDTECH.",
+      "officialExplanation": "high fixed costs - high operating leverage",
+      "tags": [],
+      "createdAt": 1715702483000,
+      "updatedAt": 1715702483000
+    },
+    {
+      "chapterId": "quant",
+      "title": "3. MM Proposition II without taxes diffe...",
+      "question": "3. MM Proposition II without taxes differs from MM Proposition I without taxes since it concludes that:",
+      "questionType": "choice",
+      "options": [
+        "A. WACC is unaffected by capital structure.",
+        "B. the value of the levered firm is equal to that of the unlevered firm.",
+        "C. higher leverage raises the cost of equity, which exactly offsets the lower cost of debt."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "C",
+      "officialExplanation": "选项A是两个命题（均为without taxes）都能推出的共同结论，不是 II 和 I 的区别。",
+      "tags": [],
+      "createdAt": 1715702484000,
+      "updatedAt": 1715702484000
+    },
+    {
+      "chapterId": "quant",
+      "title": "12. When a publicly traded company's tar...",
+      "question": "12. When a publicly traded company's target capital structure is unknown, which of the following is most likely an acceptable proxy?",
+      "questionType": "choice",
+      "options": [
+        "A. Equal weights for debt and equity",
+        "B. The company’s current capital structure at book value weights",
+        "C. An unweighted average of comparable companies’ capital structures"
+      ],
+      "myAnswer": "",
+      "correctAnswer": "C",
+      "officialExplanation": "",
+      "tags": [],
+      "createdAt": 1715702485000,
+      "updatedAt": 1715702485000
+    },
+    {
+      "chapterId": "quant",
+      "title": "19. … Plover, Inc., a European-based unl...",
+      "question": "19. … Plover, Inc., a European-based unleveraged firm with a constant (perpetual) cash flow of EUR10.0 million per year before taxes. The firm has a market value of EUR100.0 million and a corporate tax rate of 20%. Plover plans to issue EUR35.0 million in debt to retire an equivalent amount of equity, so the size of the firm will remain unchanged. The debt will have a cost of 4.5%. Assume the cost of financial distress is close to zero. After the debt issuance and change in the capital structure, Plover’s WACC is closest to:",
+      "questionType": "choice",
+      "options": [],
+      "myAnswer": "",
+      "correctAnswer": "7.48%",
+      "officialExplanation": "Step 1 rWACC = CF (1 – t)/V\n*Step 2 VL = VU + tD (MM Proposition I with Taxes)\nStep 3 E = VL - D\nStep 4 MM Proposition II with Taxes",
+      "tags": [],
+      "createdAt": 1715702486000,
+      "updatedAt": 1715702486000
+    },
+    {
+      "chapterId": "quant",
+      "title": "6. ____________ involves user communitie...",
+      "question": "6. ____________ involves user communities that enable voluntary collaboration between users of a product with generally a small amount of moderation and oversight by the community host or operator.",
+      "questionType": "choice",
+      "options": [
+        "A. Franchising",
+        "B. Crowdsourcing",
+        "C. A loyalty program"
+      ],
+      "myAnswer": "",
+      "correctAnswer": "B",
+      "officialExplanation": "4 Financial Statement Analysis",
+      "tags": [],
+      "createdAt": 1715702487000,
+      "updatedAt": 1715702487000
+    },
+    {
+      "chapterId": "quant",
+      "title": "1. All else equal, in the fiscal year wh...",
+      "question": "1. All else equal, in the fiscal year when long-lived equipment is purchased:",
+      "questionType": "choice",
+      "options": [
+        "A. depreciation expense increases.",
+        "B. cash from operations decreases.",
+        "C. net income is reduced by the amount of the purchase."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "A",
+      "officialExplanation": "",
+      "tags": [],
+      "createdAt": 1715702488000,
+      "updatedAt": 1715702488000
+    },
+    {
+      "chapterId": "quant",
+      "title": "2. Companies X and Z have the same begin...",
+      "question": "2. Companies X and Z have the same beginning-of-the-year book value of equity and the same tax rate. The companies have identical transactions throughout the year and report all transactions similarly except for one. Both companies acquire a GBP300,000 printer with a three-year useful life and a salvage value of GBP0 on 1 January of the new year. Company X capitalizes the printer and depreciates it on a straight-line basis, and Company Z expenses the printer.\nCompany Z’s return on equity using year-end equity will be closest to:",
+      "questionType": "choice",
+      "options": [],
+      "myAnswer": "",
+      "correctAnswer": "6.1%.",
+      "officialExplanation": "Melanie Hart, CFA, is a transportation analyst. Hart has been asked to write a research report on Altai Mountain Rail Company (AMRC). Like other companies in the railroad industry, AMRC’s operations are capital intensive, with significant investments in such long-lived tangible assets as property, plant, and equipment. In November 2008, AMRC’s board of directors hired a new team to manage the company. In reviewing the company’s 2009 annual report, Hart is concerned about some of the accounting choices that the new management has made. These choices differ from those of the previous management and from common industry practice. Hart has highlighted the following statements from the company’s annual report:\nStatement 1:\n“In 2009, AMRC spent significant amounts on track replacement and similar improvements. AMRC expensed rather than capitalized a significant proportion of these expenditures.”",
+      "tags": [],
+      "createdAt": 1715702489000,
+      "updatedAt": 1715702489000
+    },
+    {
+      "chapterId": "quant",
+      "title": "5. With respect to Statement 3, what is ...",
+      "question": "5. With respect to Statement 3, what is the most likely effect of the impairment loss?",
+      "questionType": "choice",
+      "options": [
+        "A. Net income in years prior to 2009 was likely understated.",
+        "B. Net profit margins in years after 2009 will likely exceed the 2009 net profit margin.",
+        "C. Cash flow from operating activities in 2009 was likely lower due to the impairment loss."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "B",
+      "officialExplanation": "公司在 2009 年确认了一笔资产减值损失impairment loss，导致：\n资产账面价值 ↓ → 未来折旧费用 ↓\n2009 年利润 ↓ → 当年利润被压低/利润率低 → 未来利润更高\n*减值是非现金项目，不影响现金流",
+      "tags": [],
+      "createdAt": 1715702490000,
+      "updatedAt": 1715702490000
+    },
+    {
+      "chapterId": "quant",
+      "title": "6. The best estimate of the average rema...",
+      "question": "6. The best estimate of the average remaining useful life of the company’s plant and equipment at the end of 2009 is ______ years:",
+      "questionType": "choice",
+      "options": [],
+      "myAnswer": "",
+      "correctAnswer": "20.75.",
+      "officialExplanation": "= Net plant and equipment ÷ Annual depreciation expense\n= (Gross P & E – Accumulated depreciation) ÷ Annual depreciation expense\n= (€6000 – €1850) ÷ €200\n= €4150 ÷ €200\n= 20.75",
+      "tags": [],
+      "createdAt": 1715702491000,
+      "updatedAt": 1715702491000
+    },
+    {
+      "chapterId": "quant",
+      "title": "2. Calculate Melco’s percentage change i...",
+      "question": "2. Calculate Melco’s percentage change in operating cash flow with and without capitalized interest from 2016 to 2017.",
+      "questionType": "choice",
+      "options": [],
+      "myAnswer": "",
+      "correctAnswer": "(1)2.14;",
+      "officialExplanation": "(1) with capitalized interest:\ninterest coverage ratio = (EBIT + amortization) ÷ (interest expense + capitalized interest)\nwithout capitalized interest:\ninterest coverage ratio = EBIT ÷ interest expense\n 递延融资成本（Deferred Financing Costs）是公司在发行债务时一次性支付的各种费用，例如：承销费、律师费、评级费、登记费等。这些费用被资本化，然后在债务的存续期内逐年摊销，这个逐年摊销的过程就是递延融资成本摊销（Amortization of Deferred Financing Costs）。\n 递延融资成本是一种融资成本，而非经营成本，与公司的核心经营活动没有直接关系。须将其加回 EBIT，从而更准确地反映公司实际的经营盈利能力/偿债能力。\n(2) without capitalized interest:\nincreased by 0.4% = 1,162,500 ÷1,158,128 – 1\nwith capitalized interest:\ndecreased by 0.4% = (1,162,500 –37,483) ÷ (1,158,128 –29,033) – 1",
+      "tags": [],
+      "createdAt": 1715702492000,
+      "updatedAt": 1715702492000
+    },
+    {
+      "chapterId": "quant",
+      "title": "1. Hihotech Company (fictious) reported ...",
+      "question": "1. Hihotech Company (fictious) reported net income of USD2.3 million for the year ended 30 June 2018 and had a weighted average of 800,000 common shares outstanding. At the beginning of the fiscal year, the company has outstanding 30,000 options with an exercise price of USD35. No other potentially dilutive financial instruments are outstanding. Over the fiscal year, the company’s market price has averaged USD55 per share. Calculate the company’s diluted EPS.",
+      "questionType": "choice",
+      "options": [],
+      "myAnswer": "",
+      "correctAnswer": "2.84.",
+      "officialExplanation": "股票期权：是公司授予员工（或其他方）的一种权利，允许其在未来特定时间内，以预先约定的价格（行权价，Exercise Price）购买公司股票。只有当市场价格高于行权价时期权才有价值，持有者才会选择行权，从而增加流通股数。\n库藏股法（Treasury Stock Method）：期权行权会新增股票，但行权收到的钱会回购股票，真正导致稀释的是两者的“净增量”。\n计算步骤：\nStep 1期权行权收到的现金：30,000 股×$35=$1,050,000\nStep 2 用这笔现金按平均市价可回购的股数：1,050,000 / 55 = 19,091 股\nStep 3 净新增股数（稀释股数）：30,000−19,091=10,909 股\nStep 4 稀释后总股数：800,000+10,909=810,909 股\nStep 5 稀释每股收益：2,300,000 / 810,909 ​≈ 2.84",
+      "tags": [],
+      "createdAt": 1715702493000,
+      "updatedAt": 1715702493000
+    },
+    {
+      "chapterId": "quant",
+      "title": "1. Under IFRS, income includes increases...",
+      "question": "1. Under IFRS, income includes increases in economic benefits from:",
+      "questionType": "choice",
+      "options": [
+        "A. increases in liabilities not related to owners’ contributions.",
+        "B. enhancements of assets not related to owners’ contributions.",
+        "C. increases in owners’ equity related to owners’ contributions."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "B",
+      "officialExplanation": "IFRS 官方定义：Income is increases in economic benefits during the accounting period in the form of inflows or enhancements of assets or decreases of liabilities that result in increases in equity, other than those relating to contributions from equity participants\n收益（income） 是指除所有者出资外，导致企业所有者权益增加的经济利益的总流入，其产生源于资产的增值 / 增强、或负债的减少，且与所有者投入资本无关。\n* not related to owners’ contributions是为了严格区分“企业经营 / 非经营产生的经济利益增值”和“股东向企业注入资本导致的权益增加”\n【2.02权责发生制】",
+      "tags": [],
+      "createdAt": 1715702494000,
+      "updatedAt": 1715702494000
+    },
+    {
+      "chapterId": "quant",
+      "title": "5. Under IFRS, a loss from the destructi...",
+      "question": "5. Under IFRS, a loss from the destruction of property in a fire would most likely be classified as:",
+      "questionType": "choice",
+      "options": [
+        "A. continuing operations.",
+        "B. discontinued operations.",
+        "C. other comprehensive income."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "A",
+      "officialExplanation": "Continuing operations（持续经营活动）：企业日常经营相关的所有收支，即使包含偶发 / 异常的利得 / 损失（如火灾毁损、资产处置损失、重组费用等），只要该损失不属于终止经营，均归属于持续经营活动列报。\nDiscontinued operations（终止经营活动）：需满足业务构成可单独区分的组成部分 + 企业已处置 / 计划处置且不再参与的严格条件，火灾毁损仅为资产损失，并非业务线的终止。\nOther Comprehensive Income（其他综合收益）：企业在某一会计期间内，未在利润表中确认的利得和损失。这类利得 / 损失并非企业日常经营或偶发交易产生的已实现损益，而是未实现的、暂时的权益变动（vs 利润表：反映已实现的损益），只有当相关资产/负债处置/结算时，OCI 中的金额才会转入利润表成为已实现损益。\n【EPS基础】",
+      "tags": [],
+      "createdAt": 1715702495000,
+      "updatedAt": 1715702495000
+    },
+    {
+      "chapterId": "quant",
+      "title": "14.5\nCost of goods sold\n5.7\n7.7\nAdminist...",
+      "question": "14.5\nCost of goods sold\n5.7\n7.7\nAdministration costs\n1.9\n2.2\nInterest expense\n0.3\n0.7\nResearch and development expenses\n1.5\n1.7\nBetter margin performance will be reported by:",
+      "questionType": "choice",
+      "options": [
+        "A. Company Y at the gross margin level and Company X at the operating margin level.",
+        "B. Company Y at both the gross margin and operating margin levels.",
+        "C. Company X at the gross margin level and Company Y at the operating margin level."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "C",
+      "officialExplanation": "Gross profit = Sales - Cost of goods sold\nOperating profit = Sales - Cost of goods sold – (Administration costs + Research and development expenses) – (Distribution expenses + Sales and marketing expenses)\n*营业利润（Operating profit）衡量的是公司核心经营业务的盈利能力，它只包含与日常运营直接相关的收入和费用。而Interest expense属于融资成本，故不包含在Operating profit。\n【基础：有效税率】",
+      "tags": [],
+      "createdAt": 1715702496000,
+      "updatedAt": 1715702496000
+    },
+    {
+      "chapterId": "quant",
+      "title": "10. Zimt AG wrote down the value of its ...",
+      "question": "10. Zimt AG wrote down the value of its inventory in 2017 and reversed the write-down in 2018. Compared to the results the company would have reported if the write-down had never occurred, Zimt’s reported that the 2018:",
+      "questionType": "choice",
+      "options": [
+        "A. profit was overstated.",
+        "B. cash flow from operations was overstated.",
+        "C. year-end inventory balance was overstated."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "A",
+      "officialExplanation": "",
+      "tags": [],
+      "createdAt": 1715702497000,
+      "updatedAt": 1715702497000
+    },
+    {
+      "chapterId": "quant",
+      "title": "15. The costs least likely to be include...",
+      "question": "15. The costs least likely to be included by the CFO as inventory are:",
+      "questionType": "choice",
+      "options": [
+        "A. storage costs for the chocolate liquor.",
+        "B. excise taxes paid to the government of Brazil for the cacao beans.",
+        "C. storage costs for chocolate and purchased finished goods awaiting shipment to customers."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "C",
+      "officialExplanation": "",
+      "tags": [],
+      "createdAt": 1715702498000,
+      "updatedAt": 1715702498000
+    },
+    {
+      "chapterId": "quant",
+      "title": "17. In Kern’s comparative ratio analysis...",
+      "question": "17. In Kern’s comparative ratio analysis, the 2018 inventory turnover ratio for Century Chocolate is closest to:",
+      "questionType": "choice",
+      "options": [],
+      "myAnswer": "",
+      "correctAnswer": "5.42.",
+      "officialExplanation": "Inventory turnover = Cost of sales/Average inventory = 41,043/7,569.5 = 5.42.\nAverage inventory is (8,100 + 7,039)/2 = 7,569.5.",
+      "tags": [],
+      "createdAt": 1715702499000,
+      "updatedAt": 1715702499000
+    },
+    {
+      "chapterId": "quant",
+      "title": "18. The most accurate statement regardin...",
+      "question": "18. The most accurate statement regarding Annan’s reasoning for requiring Kern to select a competitor that reports under IFRS for comparative purposes is that under US GAAP:",
+      "questionType": "choice",
+      "options": [
+        "A. fair values are used to value inventory.",
+        "B. the LIFO method is permitted to value inventory.",
+        "C. the specific identification method is permitted to value inventory."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "B",
+      "officialExplanation": "*题干理解：原公司用的IFRS，而助理选的竞争对手用的US GAAP\n盈余管理：在US GAAP可以选LIFO或FIFO，会计处理可能存在操纵；而IFRS禁止选LIFO",
+      "tags": [],
+      "createdAt": 1715702500000,
+      "updatedAt": 1715702500000
+    },
+    {
+      "chapterId": "quant",
+      "title": "19. Annan’s statement regarding the perp...",
+      "question": "19. Annan’s statement regarding the perpetual and periodic inventory systems is most significant when which of the following costing systems is used?",
+      "questionType": "choice",
+      "options": [
+        "A. LIFO",
+        "B. FIFO",
+        "C. Specific identification"
+      ],
+      "myAnswer": "",
+      "correctAnswer": "A",
+      "officialExplanation": "*题干理解：Perpetual永续vs Periodic定期\nFIFO：不管怎么算，都是先卖旧货 → 不受系统影响\nLIFO：是卖新货，但新货是哪一批取决于计算方式 → perpetual vs periodic 会选不同批次\nPerpetual LIFO（永续）：每发生一次销售，就立刻用最新进货配对\nPeriodic LIFO（定期）：到期末才统一算",
+      "tags": [],
+      "createdAt": 1715702501000,
+      "updatedAt": 1715702501000
+    },
+    {
+      "chapterId": "quant",
+      "title": "20. Ignoring any tax effect, the change ...",
+      "question": "20. Ignoring any tax effect, the change in net realizable value of the black licorice jelly beans from 2017 to 2018 will most likely result in:",
+      "questionType": "choice",
+      "options": [
+        "A. an increase in gross profit of CHF7,775.",
+        "B. an increase in gross profit of CHF11,670.",
+        "C. no impact on cost of sales because under IFRS, write-downs cannot be reversed."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "A",
+      "officialExplanation": "the reversal is 77,750 × (4.05 – 3.95) = 7,775. The amount of any reversal of a write-down is recognized as a reduction in cost of sales. This reduction results in an increase in gross profit.",
+      "tags": [],
+      "createdAt": 1715702502000,
+      "updatedAt": 1715702502000
+    },
+    {
+      "chapterId": "quant",
+      "title": "22. Crux’s inventory turnover ratio comp...",
+      "question": "22. Crux’s inventory turnover ratio computed as of 31 December 2018, after the adjustments suggested by Groff, is closest to:",
+      "questionType": "choice",
+      "options": [],
+      "myAnswer": "",
+      "correctAnswer": "5.83.",
+      "officialExplanation": "COGS (adjusted) = COGS (LIFO method) – write-downs – Change in LIFO reserve\n= USD3,120 million – 13 million – (55 million – 72 million) = USD3,124 million\nEnding inventory (FIFO) = Ending inventory (LIFO) + LIFO reserve\nEnding inventory 2018 (FIFO) = USD480 + 55 = USD535\nEnding inventory 2017 (FIFO) = USD465 + 72 = USD537\nAverage inventory = (USD535 + 537)/2 = USD536\nInventory turnover ratio = COGS/Average inventory = USD3,124/USD536 = 5.83",
+      "tags": [],
+      "createdAt": 1715702503000,
+      "updatedAt": 1715702503000
+    },
+    {
+      "chapterId": "quant",
+      "title": "23. Rolby’s net profit margin for the ye...",
+      "question": "23. Rolby’s net profit margin for the year ended 31 December 2018, after the adjustments suggested by Groff, is closest to:",
+      "questionType": "choice",
+      "options": [],
+      "myAnswer": "",
+      "correctAnswer": "6.20",
+      "officialExplanation": "NI (adjusted) = NI (FIFO method) + Charges, included in cost of goods sold for inventory write-downs, after tax\n= USD327 million + 15 million × (1 – 30%)\n= USD337.5 million\nNet profit margin = NI/Revenues = USD337.5/USD5,442 = 6.20%.",
+      "tags": [],
+      "createdAt": 1715702504000,
+      "updatedAt": 1715702504000
+    },
+    {
+      "chapterId": "quant",
+      "title": "25. Which company’s gross profit margin ...",
+      "question": "25. Which company’s gross profit margin would best reflect current costs of the industry?",
+      "questionType": "choice",
+      "options": [
+        "A. Crux.",
+        "B. Rolby.",
+        "C. Mikko."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "C",
+      "officialExplanation": "",
+      "tags": [],
+      "createdAt": 1715702505000,
+      "updatedAt": 1715702505000
+    },
+    {
+      "chapterId": "quant",
+      "title": "28. The management discussion and analys...",
+      "question": "28. The management discussion and analysis (MD&A) indicated that the prices of raw material, other production materials, and parts increased. Based on the inventory valuation methods described in Note 2, which inventory classification would least accurately reflect current prices?",
+      "questionType": "choice",
+      "options": [
+        "A. Raw materials",
+        "B. Finished goods",
+        "C. Work in process"
+      ],
+      "myAnswer": "",
+      "correctAnswer": "B",
+      "officialExplanation": "Finished goods least accurately reflect current prices because some of the finished goods are valued under the last-in, first-out (“LIFO”) basis. The costs of the newest units available for sale are allocated to cost of goods sold, leaving the oldest units (at lower costs) in inventory. ZP values raw materials and work in process using the weighted average cost method. While not fully reflecting current prices, some inflationary effect will be included in the inventory values.",
+      "tags": [],
+      "createdAt": 1715702506000,
+      "updatedAt": 1715702506000
+    },
+    {
+      "chapterId": "quant",
+      "title": "30. If ZP had prepared its financial sta...",
+      "question": "30. If ZP had prepared its financial statement in accordance with IFRS, the inventory turnover ratio (using average inventory) for 2018 would be:",
+      "questionType": "choice",
+      "options": [
+        "A. lower.",
+        "B. higher.",
+        "C. the same."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "A",
+      "officialExplanation": "The average inventory would be higher under FIFO and cost of products sold would be lower by the increase in LIFO reserve. LIFO is not permitted under IFRS.\nInventory turnover ratio = Cost of products sold ÷ Average inventory\n2018 inventory turnover ratio as reported = 10.63 = JPY5,822,805/[(608,572 + 486,465)/2].\n2018 inventory turnover ratio adjusted to FIFO as necessary = 10.34 = [JPY5,822,805 – (19,660 – 10,120)]/[(608,572 + 10,120 + 486,465 + 19,660)/2].",
+      "tags": [],
+      "createdAt": 1715702507000,
+      "updatedAt": 1715702507000
+    },
+    {
+      "chapterId": "quant",
+      "title": "32. Which observation is most likely a r...",
+      "question": "32. Which observation is most likely a result of looking only at the information reported in Exhibit 2, Note 9?",
+      "questionType": "choice",
+      "options": [
+        "A. Increased competition has led to lower unit sales.",
+        "B. There have been significant price increases in supplies.",
+        "C. Management expects a further downturn in sales during 2019."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "C",
+      "officialExplanation": "Finished goods and raw materials inventories are lower in 2018 when compared to 2017. Reduced levels of inventory typically indicate an anticipated business contraction.",
+      "tags": [],
+      "createdAt": 1715702508000,
+      "updatedAt": 1715702508000
+    },
+    {
+      "chapterId": "quant",
+      "title": "1. Akihiko Takabe has designed a sophist...",
+      "question": "1. Akihiko Takabe has designed a sophisticated forecasting model, which predicts the movements in the overall stock market, in the hope of earning a return in excess of a fair return for the risk involved. He uses the predictions of the model to decide whether to buy, hold, or sell the shares of an index fund that aims to replicate the movements of the stock market. Takabe would best be characterized as a(n):",
+      "questionType": "choice",
+      "options": [
+        "A. hedger.",
+        "B. investor.",
+        "C. information-motivated trader."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "C",
+      "officialExplanation": "Hedger（套期保值者）：通过锁定价格、规避不利变动以减少或消除现有或预期头寸的风险。\nInvestor（投资者）：通常是以长期持有为目的，依据对资产基本价值的判断来配置资金，期望获得与风险匹配的回报。——靠价值增长赚钱，赚的是 Beta（市场风险回报） 和 长期复利\nInformation-motivated trader（信息驱动型交易者）：利用自己拥有的信息或分析来预测价格变动，主动寻找市场定价偏差，并据此交易以获取超额利润（α）。——靠价格波动赚钱",
+      "tags": [],
+      "createdAt": 1715702509000,
+      "updatedAt": 1715702509000
+    },
+    {
+      "chapterId": "quant",
+      "title": "8. Consider a mutual fund that invests p...",
+      "question": "8. Consider a mutual fund that invests primarily in fixed-income securities that have been determined to be appropriate given the fund’s investment goal. Which of the following is least likely to be a part of this fund?",
+      "questionType": "choice",
+      "options": [
+        "A. Warrants.",
+        "B. Commercial paper.",
+        "C. Repurchase agreements."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "A",
+      "officialExplanation": "固定收益证券是指发行方承诺按固定利率或固定金额定期支付利息，并在到期时偿还本金的投资工具，如债券、国库券、商业票据等。\nWarrants（权证）：一种赋予持有者在未来以特定价格购买股票（或其他资产）的权利的证券，本质上属于权益类衍生品。\nCommercial paper（商业票据）：公司发行的短期无担保债务工具，期限 ≤ 270 天，属于货币市场工具，也是固定收益证券的一种（短期）。\nRepurchase agreements（回购协议）：回购协议是一种短期资金融通工具，以证券为抵押，本质上是抵押贷款，在会计和性质上常被视为短期固定收益或现金管理工具。",
+      "tags": [],
+      "createdAt": 1715702510000,
+      "updatedAt": 1715702510000
+    },
+    {
+      "chapterId": "quant",
+      "title": "11. Which of the following statements ab...",
+      "question": "11. Which of the following statements about exchange-traded funds is most correct?",
+      "questionType": "choice",
+      "options": [
+        "A. Exchange-traded funds are not backed by any assets.",
+        "B. The investment companies that create exchange-traded funds are financial intermediaries.",
+        "C. The transaction costs of trading shares of exchange-traded funds are substantially greater than the combined costs of trading the underlying assets of the fund."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "B",
+      "officialExplanation": "",
+      "tags": [],
+      "createdAt": 1715702511000,
+      "updatedAt": 1715702511000
+    },
+    {
+      "chapterId": "quant",
+      "title": "18. Pierre-Louis Robert just purchased a...",
+      "question": "18. Pierre-Louis Robert just purchased a call option on shares of the Michelin Group. A few days ago he wrote a put option on Michelin shares. The call and put options have the same exercise price, expiration date, and number of shares underlying. Considering both positions, Robert’s exposure to the risk of the stock of the Michelin Group is:",
+      "questionType": "choice",
+      "options": [
+        "A. long.",
+        "B. short.",
+        "C. neutral."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "A",
+      "officialExplanation": "",
+      "tags": [],
+      "createdAt": 1715702512000,
+      "updatedAt": 1715702512000
+    },
+    {
+      "chapterId": "quant",
+      "title": "22. Caroline Rogers believes the price o...",
+      "question": "22. Caroline Rogers believes the price of Gamma Corp. stock will go down in the near future. She has decided to sell short 200 shares of Gamma Corp. at the current market price of €47. The initial margin requirement is 40 percent. Which of the following is an appropriate statement regarding the margin requirement that Rogers is subject to on this short sale?",
+      "questionType": "choice",
+      "options": [
+        "A. She will need to contribute €3,760 as margin.",
+        "B. She will need to contribute €5,640 as margin.",
+        "C. She will only need to leave the proceeds from the short sale as deposit and does not need to contribute any additional funds."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "A",
+      "officialExplanation": "*卖空sell short指借入股票并立即卖出，在未来买回股票归还\n卖空价值 = 200 × 47 = 9400\n初始保证金要求9400 × 40% = 3760必须由卖空者自己额外存入的自有资金来提供。因为卖空所得是借来的股票的销售收入，不属于卖空者的自有资本。\n卖空所得留作 deposit 是必须的，但仅凭卖空所得还不够满足初始保证金要求，因为初始保证金要求的是自有资金占卖空价值的比例。\n【leverage ratio】",
+      "tags": [],
+      "createdAt": 1715702513000,
+      "updatedAt": 1715702513000
+    },
+    {
+      "chapterId": "quant",
+      "title": "21. Jason Williams purchased 500 shares ...",
+      "question": "21. Jason Williams purchased 500 shares of a company at $32 per share. The stock was bought on 75 percent margin. One month later, Williams had to pay interest on the amount borrowed at a rate of 2 percent per month. At that time, Williams received a dividend of $0.50 per share. Immediately after that he sold the shares at $28 per share. He paid commissions of $10 on the purchase and $10 on the sale of the stock. What was the rate of return on this investment for the one-month period?",
+      "questionType": "choice",
+      "options": [],
+      "myAnswer": "",
+      "correctAnswer": "–15.4%.",
+      "officialExplanation": "*术语理解：Margin 保证金比例；75 percent margin自有资金占75%\n期初现金投入 = 自有资金12,000 + 购买佣金10 = 12,010\n期末现金 = 出售净收入 + 股利收入 – 本息支出\n=（出售总收入500×28 - 卖出佣金10）+ 500 × 0.50 -（4000 + 4000 ×2%）= 10160\n收益率 = （期末现金 - 期初现金投入）/期初现金投入 = -15.4%",
+      "tags": [],
+      "createdAt": 1715702514000,
+      "updatedAt": 1715702514000
+    },
+    {
+      "chapterId": "quant",
+      "title": "124.50\n7\nA new buy limit order is placed...",
+      "question": "124.50\n7\nA new buy limit order is placed for 300 shares at ¥123.40. This limit order is said to:",
+      "questionType": "choice",
+      "options": [
+        "A. take the market.",
+        "B. make the market.",
+        "C. make a new market."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "C",
+      "officialExplanation": "Take the market：以市价单（market order）立即成交，即接受当前市场上已有的最优报价。\n如果是买入 → 以当前最低卖价（Best Ask） 成交\n如果是卖出 → 以当前最高买价（Best Bid） 成交\n示例：当前市场报价 123.35 bid / 123.80 offer。“take the market”买入 → 以 123.80 成交。\nMake the market：同时报出买单和卖单（成为做市商），为市场提供流动性，赚取买卖价差。\n示例：你在 123.35 挂买单，在 123.80挂卖单，同时提供双向报价。\nMake a new market：当市场上没有现有报价或现有报价被全部成交后，重新报出新的买卖价格。常见于做市商在订单簿清空后，重新建立双向报价；也可能是投资者挂出一个新的限价单，成为新的最优报价。",
+      "tags": [],
+      "createdAt": 1715702515000,
+      "updatedAt": 1715702515000
+    },
+    {
+      "chapterId": "quant",
+      "title": "27. You have placed a sell market-on-ope...",
+      "question": "27. You have placed a sell market-on-open order—a market order that would automatically be submitted at the market’s open tomorrow and would fill at the market price. Your instruction, to sell the shares at the market open, is a(n):",
+      "questionType": "choice",
+      "options": [
+        "A. execution instruction.",
+        "B. validity instruction.",
+        "C. clearing instruction."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "B",
+      "officialExplanation": "",
+      "tags": [],
+      "createdAt": 1715702516000,
+      "updatedAt": 1715702516000
+    },
+    {
+      "chapterId": "quant",
+      "title": "20.29",
+      "question": "20.29",
+      "questionType": "choice",
+      "options": [
+        "A. Order I (time of arrival of 9:52:01).",
+        "B. Order II (time of arrival of 9:52:08).",
+        "C. Order III (time of arrival of 9:53:04)."
+      ],
+      "myAnswer": "",
+      "correctAnswer": "C",
+      "officialExplanation": "*Order Precedence Hierarchy（订单执行优先顺序）\n优先级\n原则\n说明\n1\n价格优先（Price Priority）\n买单出价高的优先，卖单要价低的优先\n2\n公开优先（Display Precedence）\n公开显示的订单优先于隐藏订单\n3\n时间优先（Time Precedence）\n同一价格下，先到达交易所的订单先成交",
+      "tags": [],
+      "createdAt": 1715702517000,
+      "updatedAt": 1715702517000
+    }
+  ],
+  "settings": []
+}
